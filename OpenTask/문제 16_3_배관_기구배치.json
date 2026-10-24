@@ -1,0 +1,427 @@
+{
+  "elements": [
+    {
+      "id": "e123",
+      "type": "panel",
+      "x": 780,
+      "y": 250,
+      "rot": 0,
+      "label": "설치판",
+      "width": 400,
+      "height": 420,
+      "locked": false
+    },
+    {
+      "id": "e167",
+      "type": "squareSocket",
+      "x": 226.68831168831164,
+      "y": 188.37786023500308,
+      "rot": 0,
+      "label": "EOCR",
+      "poles": 12,
+      "fontSize": 7
+    },
+    {
+      "id": "e168",
+      "type": "squareSocket",
+      "x": 305.6883116883116,
+      "y": 188.37786023500308,
+      "rot": 0,
+      "label": "X1",
+      "poles": 8,
+      "fontSize": 7
+    },
+    {
+      "id": "e169",
+      "type": "squareSocket",
+      "x": 368.6883116883116,
+      "y": 188.37786023500308,
+      "rot": 0,
+      "label": "X2",
+      "poles": 8,
+      "fontSize": 7
+    },
+    {
+      "id": "e170",
+      "type": "fuseSocket",
+      "x": 415.6883116883116,
+      "y": 188.37786023500308,
+      "rot": 90,
+      "label": "FUSE",
+      "fontSize": 7
+    },
+    {
+      "id": "e171",
+      "type": "fuseSocket",
+      "x": 435.6883116883116,
+      "y": 188.37786023500308,
+      "rot": 90,
+      "label": "FUSE",
+      "fontSize": 7
+    },
+    {
+      "id": "e173",
+      "type": "squareSocket",
+      "x": 148.68831168831164,
+      "y": 317.1623376623377,
+      "rot": 0,
+      "label": "T2",
+      "poles": 8,
+      "fontSize": 7
+    },
+    {
+      "id": "e174",
+      "type": "squareSocket",
+      "x": 228.68831168831164,
+      "y": 317.56233766233765,
+      "rot": 0,
+      "label": "MC1",
+      "poles": 12,
+      "fontSize": 7
+    },
+    {
+      "id": "e175",
+      "type": "squareSocket",
+      "x": 324.6883116883116,
+      "y": 317.1623376623377,
+      "rot": 0,
+      "label": "MC2",
+      "poles": 12,
+      "fontSize": 7
+    },
+    {
+      "id": "e176",
+      "type": "squareSocket",
+      "x": 404.6883116883116,
+      "y": 317.1623376623377,
+      "rot": 0,
+      "label": "T1",
+      "poles": 8,
+      "fontSize": 7
+    },
+    {
+      "id": "e219",
+      "type": "tape",
+      "x": 263.6883116883116,
+      "y": 53.66233766233768,
+      "rot": 0,
+      "label": "갈      흑",
+      "width": 30,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e220",
+      "type": "tape",
+      "x": 414.6883116883116,
+      "y": 52.66233766233768,
+      "rot": 0,
+      "label": "PB0      PB1\nA      C      B",
+      "width": 40,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e221",
+      "type": "설치판 (400×420) 🔒\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1R\r\n1T\r\n2R\r\n2T\r\n3R\r\n3T\r\nMCCB (3P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\nSOCKET (12핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\nSOCKET (8핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\nSOCKET (8핀)\r\nFUSE\r\nFUSE\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\nSOCKET (8핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\nSOCKET (12핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\nSOCKET (12핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\nSOCKET (8핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\nGL 1｜2   RL 1｜2\r\n1줄\r\n2줄\r\nPB0      PB1\r\nA     B     B\r\n",
+      "x": 327.6883116883116,
+      "y": 62.66233766233768,
+      "rot": 0
+    },
+    {
+      "id": "e222",
+      "type": "tape",
+      "x": 294.6883116883116,
+      "y": 53.66233766233768,
+      "rot": 0,
+      "label": "회      녹",
+      "width": 30,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e223",
+      "type": "tape",
+      "x": 143.68831168831164,
+      "y": 52.66233766233768,
+      "rot": 0,
+      "label": "RL            GL\nA      B      B",
+      "width": 40,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e224",
+      "type": "tape",
+      "x": 210.35497835497839,
+      "y": 52.66233766233768,
+      "rot": 0,
+      "label": "WL           YL\nA      B      B",
+      "width": 40,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e225",
+      "type": "tape",
+      "x": 422.6883116883116,
+      "y": 433.6623376623377,
+      "rot": 0,
+      "label": "A      B\nPB2",
+      "width": 30,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e226",
+      "type": "tape",
+      "x": 326.6883116883116,
+      "y": 433.6623376623377,
+      "rot": 0,
+      "label": "U      V      W      E\nTB3",
+      "width": 60,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e227",
+      "type": "tape",
+      "x": 237.68831168831164,
+      "y": 438.6623376623377,
+      "rot": 0,
+      "label": "A      B      B\nLS1         LS2\nTB4",
+      "width": 40,
+      "height": 30,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e228",
+      "type": "tape",
+      "x": 148.68831168831164,
+      "y": 433.6623376623377,
+      "rot": 0,
+      "label": "U      U      W      E\nTB2",
+      "width": 60,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e229",
+      "type": "mccbSocket",
+      "x": 143,
+      "y": 188.37786023500308,
+      "rot": 0,
+      "label": "MCCB",
+      "poles": 3,
+      "fontSize": 7
+    },
+    {
+      "id": "e400",
+      "type": "tb",
+      "x": 200,
+      "y": 90,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 7
+    },
+    {
+      "id": "e401",
+      "type": "tb",
+      "x": 360,
+      "y": 90,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 7
+    },
+    {
+      "id": "e402",
+      "type": "tb",
+      "x": 198,
+      "y": 412,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 7
+    },
+    {
+      "id": "e403",
+      "type": "tb",
+      "x": 358,
+      "y": 412,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 7
+    },
+    {
+      "id": "e404",
+      "type": "설치판 (400×420)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\nEOCR (12핀)\r\n6\r\n5\r\n4\r\n3\r\n7\r\n8\r\n1\r\n2\r\nX1 (8핀)\r\n6\r\n5\r\n4\r\n3\r\n7\r\n8\r\n1\r\n2\r\nX2 (8핀)\r\nFUSE\r\nFUSE\r\n6\r\n5\r\n4\r\n3\r\n7\r\n8\r\n1\r\n2\r\nT2 (8핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\nMC1 (12핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\nMC2 (12핀)\r\n6\r\n5\r\n4\r\n3\r\n7\r\n8\r\n1\r\n2\r\nT1 (8핀)\r\n갈      흑\r\nPB0      PB1\r\nA      C      B\r\n회      녹\r\nRL            GL\r\nA      B      B\r\nWL           YL\r\nA      B      B\r\nA      B\r\nPB2\r\nU      V      W      E\r\nTB3\r\nA      B      B\r\nLS1         LS2\r\nTB4\r\nU      U      W      E\r\nTB2\r\nL1\r\nL1\r\nL2\r\nL2\r\nL3\r\nL3\r\nMCCB (3P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n",
+      "x": 418.6666666666667,
+      "y": 188.37786023500308,
+      "rot": 0
+    }
+  ],
+  "wires": [
+    {
+      "id": "e349",
+      "a": {
+        "elId": "e176",
+        "term": 4
+      },
+      "b": {
+        "elId": "e176",
+        "term": 4
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e351",
+      "a": {
+        "elId": "e176",
+        "term": 4
+      },
+      "b": {
+        "elId": "e176",
+        "term": 4
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e360",
+      "a": {
+        "elId": "e175",
+        "term": 9
+      },
+      "b": {
+        "elId": "e175",
+        "term": 9
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e367",
+      "a": {
+        "elId": "e174",
+        "term": 0
+      },
+      "b": {
+        "elId": "e174",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e380",
+      "a": {
+        "elId": "e171",
+        "term": 1
+      },
+      "b": {
+        "elId": "e171",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e385",
+      "a": {
+        "elId": "e173",
+        "term": 4
+      },
+      "b": {
+        "elId": "e173",
+        "term": 4
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e386",
+      "a": {
+        "elId": "e174",
+        "term": 11
+      },
+      "b": {
+        "elId": "e174",
+        "term": 11
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e387",
+      "a": {
+        "elId": "e173",
+        "term": 4
+      },
+      "b": {
+        "elId": "e173",
+        "term": 4
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e393",
+      "a": {
+        "elId": "e229",
+        "term": 1
+      },
+      "b": {
+        "elId": "e229",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e394",
+      "a": {
+        "elId": "e229",
+        "term": 1
+      },
+      "b": {
+        "elId": "e229",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e425",
+      "a": {
+        "elId": "e167",
+        "term": 12
+      },
+      "b": {
+        "elId": "e167",
+        "term": 17
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    }
+  ],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 1.5,
+    "scrollLeft": 0,
+    "scrollTop": 0
+  }
+}

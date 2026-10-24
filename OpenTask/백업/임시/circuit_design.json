@@ -1,0 +1,447 @@
+{
+  "elements": [
+    {
+      "id": "e137",
+      "type": "panel",
+      "x": 745.2941176470589,
+      "y": 347.05882352941177,
+      "rot": 0,
+      "label": "설치판",
+      "width": 400,
+      "height": 420
+    },
+    {
+      "id": "e140",
+      "type": "tb",
+      "x": 680,
+      "y": 520,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e141",
+      "type": "tb",
+      "x": 840,
+      "y": 520,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e142",
+      "type": "mccbSocket",
+      "x": 620,
+      "y": 320,
+      "rot": 270,
+      "label": "MCCB",
+      "poles": 3,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e143",
+      "type": "fuseSocket",
+      "x": 710,
+      "y": 320,
+      "rot": 90,
+      "label": "FUSE",
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e144",
+      "type": "fuseSocket",
+      "x": 730,
+      "y": 320,
+      "rot": 270,
+      "label": "FUSE",
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e146",
+      "type": "squareSocket",
+      "x": 790,
+      "y": 320,
+      "rot": 0,
+      "label": "SOCKET",
+      "poles": 8,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e147",
+      "type": "squareSocket",
+      "x": 876.625,
+      "y": 319.375,
+      "rot": 0,
+      "label": "SOCKET",
+      "poles": 12,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e149",
+      "type": "tb",
+      "x": 680,
+      "y": 200,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e150",
+      "type": "tb",
+      "x": 840,
+      "y": 200,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e157",
+      "type": "node",
+      "x": 600,
+      "y": 200,
+      "rot": 0,
+      "label": "",
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e158",
+      "type": "node",
+      "x": 624,
+      "y": 200.66666666666666,
+      "rot": 0,
+      "label": "",
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e181",
+      "type": "설치판 (400×420)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1R\r\n1T\r\n2R\r\n2T\r\n3R\r\n3T\r\nMCCB (3P)\r\nFUSE\r\nFUSE\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\nSOCKET (8핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\nSOCKET (12핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\nMC\r\nRy(X)\r\nTB1\r\nG1 L2 L3 E\r\nTB1\r\nG1 L2 L3 E\r\nTB1\r\nG1 L2 L3 E\r\nTB1\r\nG1 L2 L3 E\r\n",
+      "x": 1340,
+      "y": 470,
+      "rot": 0
+    },
+    {
+      "id": "e182",
+      "type": "tape",
+      "x": 760,
+      "y": 160,
+      "rot": 0,
+      "label": "",
+      "width": 320,
+      "height": 30,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e192",
+      "type": "tape",
+      "x": 790,
+      "y": 320,
+      "rot": 0,
+      "label": "6   5    4   3\n7   8    1   2",
+      "width": 50,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e194",
+      "type": "tape",
+      "x": 622.5,
+      "y": 544,
+      "rot": 0,
+      "label": "U      V     W\n TB4",
+      "width": 49,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    }
+  ],
+  "wires": [
+    {
+      "id": "e162",
+      "a": {
+        "elId": "e149",
+        "term": 0
+      },
+      "b": {
+        "elId": "e142",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 608,
+          "y": 322
+        }
+      ],
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e163",
+      "a": {
+        "elId": "e158",
+        "term": 0
+      },
+      "b": {
+        "elId": "e142",
+        "term": 3
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 624,
+          "y": 322
+        }
+      ],
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e164",
+      "a": {
+        "elId": "e149",
+        "term": 2
+      },
+      "b": {
+        "elId": "e142",
+        "term": 5
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 640,
+          "y": 322
+        }
+      ],
+      "color": "#9a9a9a"
+    },
+    {
+      "id": "e183",
+      "a": {
+        "elId": "e142",
+        "term": 0
+      },
+      "b": {
+        "elId": "e147",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 602,
+          "y": 380
+        },
+        {
+          "x": 600,
+          "y": 380
+        },
+        {
+          "x": 560,
+          "y": 380
+        },
+        {
+          "x": 560,
+          "y": 260
+        },
+        {
+          "x": 860,
+          "y": 260
+        },
+        {
+          "x": 860,
+          "y": 306
+        }
+      ],
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e185",
+      "a": {
+        "elId": "e142",
+        "term": 2
+      },
+      "b": {
+        "elId": "e147",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 620,
+          "y": 385
+        },
+        {
+          "x": 555,
+          "y": 385
+        },
+        {
+          "x": 555,
+          "y": 255
+        },
+        {
+          "x": 875,
+          "y": 255
+        },
+        {
+          "x": 875,
+          "y": 306
+        }
+      ],
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e186",
+      "a": {
+        "elId": "e142",
+        "term": 4
+      },
+      "b": {
+        "elId": "e147",
+        "term": 2
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 638,
+          "y": 390
+        },
+        {
+          "x": 635,
+          "y": 390
+        },
+        {
+          "x": 550,
+          "y": 390
+        },
+        {
+          "x": 550,
+          "y": 250
+        },
+        {
+          "x": 885,
+          "y": 250
+        },
+        {
+          "x": 885,
+          "y": 306
+        }
+      ],
+      "color": "#9a9a9a"
+    },
+    {
+      "id": "e187",
+      "a": {
+        "elId": "e143",
+        "term": 0
+      },
+      "b": {
+        "elId": "e147",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 710,
+          "y": 265
+        },
+        {
+          "x": 855,
+          "y": 265
+        },
+        {
+          "x": 855,
+          "y": 306
+        }
+      ],
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e188",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e195",
+      "a": {
+        "elId": "e147",
+        "term": 6
+      },
+      "b": {
+        "elId": "e140",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 849,
+          "y": 441
+        },
+        {
+          "x": 828.5,
+          "y": 441.5
+        },
+        {
+          "x": 607,
+          "y": 440.5
+        },
+        {
+          "x": 607,
+          "y": 449.5
+        },
+        {
+          "x": 607,
+          "y": 520
+        }
+      ],
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e196",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e197",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    }
+  ]
+}

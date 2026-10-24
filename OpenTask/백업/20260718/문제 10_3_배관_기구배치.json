@@ -1,0 +1,31 @@
+{
+  "elements": [
+    {
+      "id": "e1",
+      "type": "panel",
+      "x": 570,
+      "y": 300,
+      "rot": 0,
+      "label": "설치판",
+      "width": 400,
+      "height": 420
+    },
+    {
+      "id": "e2",
+      "type": "tool",
+      "x": 140,
+      "y": 300,
+      "rot": 0,
+      "kind": "chalk",
+      "label": "분필"
+    }
+  ],
+  "wires": [],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 1,
+    "scrollLeft": 0,
+    "scrollTop": 0
+  }
+}

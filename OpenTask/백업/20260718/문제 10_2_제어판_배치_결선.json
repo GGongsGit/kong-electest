@@ -1,0 +1,974 @@
+{
+  "elements": [
+    {
+      "id": "e137",
+      "type": "panel",
+      "x": 230,
+      "y": 250,
+      "rot": 0,
+      "label": "설치판",
+      "width": 400,
+      "height": 420,
+      "fontSize": 11,
+      "locked": false
+    },
+    {
+      "id": "e140",
+      "type": "tb",
+      "x": 160,
+      "y": 410,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e141",
+      "type": "tb",
+      "x": 320,
+      "y": 410,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e142",
+      "type": "mccbSocket",
+      "x": 100,
+      "y": 210,
+      "rot": 270,
+      "label": "MCCB",
+      "poles": 3,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e143",
+      "type": "fuseSocket",
+      "x": 190,
+      "y": 210,
+      "rot": 90,
+      "label": "FUSE",
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e144",
+      "type": "fuseSocket",
+      "x": 210,
+      "y": 210,
+      "rot": 270,
+      "label": "FUSE",
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e146",
+      "type": "squareSocket",
+      "x": 270,
+      "y": 210,
+      "rot": 0,
+      "label": "SOCKET",
+      "poles": 8,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e147",
+      "type": "squareSocket",
+      "x": 367,
+      "y": 209,
+      "rot": 0,
+      "label": "SOCKET",
+      "poles": 12,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e149",
+      "type": "tb",
+      "x": 160,
+      "y": 90,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e150",
+      "type": "tb",
+      "x": 320,
+      "y": 90,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e157",
+      "type": "node",
+      "x": 80,
+      "y": 90,
+      "rot": 0,
+      "label": "",
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e158",
+      "type": "node",
+      "x": 104,
+      "y": 90.66666666666666,
+      "rot": 0,
+      "label": "",
+      "fontSize": 9,
+      "fontBold": false
+    },
+    {
+      "id": "e181",
+      "type": "설치판 (400×420)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1R\r\n1T\r\n2R\r\n2T\r\n3R\r\n3T\r\nMCCB (3P)\r\nFUSE\r\nFUSE\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\nSOCKET (8핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\nSOCKET (12핀)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\nTB (10P)\r\nMC\r\nRy(X)\r\nTB1\r\nG1 L2 L3 E\r\nTB1\r\nG1 L2 L3 E\r\nTB1\r\nG1 L2 L3 E\r\nTB1\r\nG1 L2 L3 E\r\n",
+      "x": 1340,
+      "y": 470,
+      "rot": 0
+    },
+    {
+      "id": "e192",
+      "type": "tape",
+      "x": 270,
+      "y": 210,
+      "rot": 0,
+      "label": "6   5    4   3\n7   8    1   2",
+      "width": 50,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e194",
+      "type": "tape",
+      "x": 110,
+      "y": 433,
+      "rot": 0,
+      "label": "U      V     W     PE\n TB4",
+      "width": 60,
+      "height": 22,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e209",
+      "type": "tape",
+      "x": 367,
+      "y": 209,
+      "rot": 0,
+      "label": "1    2    3    4    5   6\n7   8   9   10   11   12",
+      "width": 70,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e210",
+      "type": "tape",
+      "x": 96,
+      "y": 59,
+      "rot": 0,
+      "label": "GL\n1    2",
+      "width": 30,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e211",
+      "type": "tape",
+      "x": 146,
+      "y": 60,
+      "rot": 0,
+      "label": "RL\n1    2",
+      "width": 30,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e212",
+      "type": "tape",
+      "x": 223,
+      "y": 60,
+      "rot": 0,
+      "label": "TB1\nL1    L2    L3    PE",
+      "width": 50,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e213",
+      "type": "tape",
+      "x": 240,
+      "y": 432,
+      "rot": 0,
+      "label": "N    O\n  PB1",
+      "width": 30,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    },
+    {
+      "id": "e214",
+      "type": "tape",
+      "x": 290,
+      "y": 430,
+      "rot": 0,
+      "label": "N    C\n  PB2",
+      "width": 30,
+      "height": 20,
+      "fontColor": "#2a2015",
+      "fontSize": 5
+    }
+  ],
+  "wires": [
+    {
+      "id": "e183",
+      "a": {
+        "elId": "e142",
+        "term": 0
+      },
+      "b": {
+        "elId": "e147",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 82.5,
+          "y": 265
+        },
+        {
+          "x": 70,
+          "y": 265
+        },
+        {
+          "x": 57.5,
+          "y": 265
+        },
+        {
+          "x": 56.875,
+          "y": 150
+        },
+        {
+          "x": 340,
+          "y": 150
+        },
+        {
+          "x": 340,
+          "y": 196
+        }
+      ],
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e185",
+      "a": {
+        "elId": "e142",
+        "term": 2
+      },
+      "b": {
+        "elId": "e147",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 100,
+          "y": 275
+        },
+        {
+          "x": 49.375,
+          "y": 274.375
+        },
+        {
+          "x": 48.75,
+          "y": 144.375
+        },
+        {
+          "x": 355,
+          "y": 145
+        },
+        {
+          "x": 355,
+          "y": 196
+        }
+      ],
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e186",
+      "a": {
+        "elId": "e142",
+        "term": 4
+      },
+      "b": {
+        "elId": "e147",
+        "term": 2
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 118,
+          "y": 280
+        },
+        {
+          "x": 115,
+          "y": 280
+        },
+        {
+          "x": 41.875,
+          "y": 280.625
+        },
+        {
+          "x": 40.625,
+          "y": 140
+        },
+        {
+          "x": 365,
+          "y": 140
+        },
+        {
+          "x": 365,
+          "y": 196
+        }
+      ],
+      "color": "#9a9a9a"
+    },
+    {
+      "id": "e187",
+      "a": {
+        "elId": "e143",
+        "term": 0
+      },
+      "b": {
+        "elId": "e147",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 190,
+          "y": 155
+        },
+        {
+          "x": 335,
+          "y": 155
+        },
+        {
+          "x": 335,
+          "y": 196
+        }
+      ],
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e188",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e195",
+      "a": {
+        "elId": "e147",
+        "term": 6
+      },
+      "b": {
+        "elId": "e140",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 340,
+          "y": 335
+        },
+        {
+          "x": 305,
+          "y": 335
+        },
+        {
+          "x": 86.875,
+          "y": 335
+        },
+        {
+          "x": 86.875,
+          "y": 370.625
+        },
+        {
+          "x": 87,
+          "y": 410
+        }
+      ],
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e196",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e197",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e200",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e201",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e202",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e204",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e144",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e205",
+      "a": {
+        "elId": "e144",
+        "term": 1
+      },
+      "b": {
+        "elId": "e147",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 210,
+          "y": 135
+        },
+        {
+          "x": 350,
+          "y": 135
+        },
+        {
+          "x": 350,
+          "y": 195.375
+        }
+      ],
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e206",
+      "a": {
+        "elId": "e147",
+        "term": 7
+      },
+      "b": {
+        "elId": "e140",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 350.5,
+          "y": 340
+        },
+        {
+          "x": 350,
+          "y": 340
+        },
+        {
+          "x": 100,
+          "y": 340
+        },
+        {
+          "x": 100,
+          "y": 410
+        }
+      ],
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e208",
+      "a": {
+        "elId": "e147",
+        "term": 8
+      },
+      "b": {
+        "elId": "e140",
+        "term": 2
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 361.5,
+          "y": 346.875
+        },
+        {
+          "x": 360,
+          "y": 346.875
+        },
+        {
+          "x": 118.125,
+          "y": 346.875
+        },
+        {
+          "x": 118.125,
+          "y": 345.625
+        },
+        {
+          "x": 118.125,
+          "y": 410
+        }
+      ],
+      "color": "#9a9a9a"
+    },
+    {
+      "id": "e215",
+      "a": {
+        "elId": "e149",
+        "term": 7
+      },
+      "b": {
+        "elId": "e142",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 200,
+          "y": 130
+        },
+        {
+          "x": 80,
+          "y": 130
+        },
+        {
+          "x": 80,
+          "y": 192
+        }
+      ],
+      "color": "#8B5A2B"
+    },
+    {
+      "id": "e216",
+      "a": {
+        "elId": "e149",
+        "term": 8
+      },
+      "b": {
+        "elId": "e142",
+        "term": 3
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 216,
+          "y": 130
+        },
+        {
+          "x": 220,
+          "y": 130
+        },
+        {
+          "x": 100,
+          "y": 130
+        }
+      ],
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "e217",
+      "a": {
+        "elId": "e149",
+        "term": 9
+      },
+      "b": {
+        "elId": "e142",
+        "term": 5
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 232,
+          "y": 130
+        },
+        {
+          "x": 230,
+          "y": 130
+        },
+        {
+          "x": 120,
+          "y": 130
+        },
+        {
+          "x": 120,
+          "y": 192
+        }
+      ],
+      "color": "#9a9a9a"
+    },
+    {
+      "id": "e218",
+      "a": {
+        "elId": "e150",
+        "term": 0
+      },
+      "b": {
+        "elId": "e150",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#2ecc71"
+    },
+    {
+      "id": "e219",
+      "a": {
+        "elId": "e150",
+        "term": 0
+      },
+      "b": {
+        "elId": "e150",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#2ecc71"
+    },
+    {
+      "id": "e220",
+      "a": {
+        "elId": "e150",
+        "term": 0
+      },
+      "b": {
+        "elId": "e140",
+        "term": 3
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 248,
+          "y": 130
+        },
+        {
+          "x": 250,
+          "y": 130
+        },
+        {
+          "x": 40,
+          "y": 130
+        },
+        {
+          "x": 40,
+          "y": 330
+        },
+        {
+          "x": 140,
+          "y": 330
+        },
+        {
+          "x": 140,
+          "y": 410
+        }
+      ],
+      "color": "#2ecc71"
+    },
+    {
+      "id": "e222",
+      "a": {
+        "elId": "e144",
+        "term": 0
+      },
+      "b": {
+        "elId": "e146",
+        "term": 4
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 210,
+          "y": 270
+        },
+        {
+          "x": 250,
+          "y": 270
+        },
+        {
+          "x": 250,
+          "y": 224
+        }
+      ],
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e223",
+      "a": {
+        "elId": "e146",
+        "term": 4
+      },
+      "b": {
+        "elId": "e147",
+        "term": 11
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 253.5,
+          "y": 270
+        },
+        {
+          "x": 250,
+          "y": 270
+        },
+        {
+          "x": 390,
+          "y": 270
+        },
+        {
+          "x": 390,
+          "y": 223
+        }
+      ],
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e224",
+      "a": {
+        "elId": "e147",
+        "term": 11
+      },
+      "b": {
+        "elId": "e149",
+        "term": 4
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 394.5,
+          "y": 270
+        },
+        {
+          "x": 400,
+          "y": 270
+        },
+        {
+          "x": 420,
+          "y": 270
+        },
+        {
+          "x": 420,
+          "y": 130
+        },
+        {
+          "x": 152,
+          "y": 130
+        }
+      ],
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e225",
+      "a": {
+        "elId": "e149",
+        "term": 4
+      },
+      "b": {
+        "elId": "e149",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e226",
+      "a": {
+        "elId": "e158",
+        "term": 0
+      },
+      "b": {
+        "elId": "e149",
+        "term": 4
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 104,
+          "y": 130
+        },
+        {
+          "x": 110,
+          "y": 130
+        },
+        {
+          "x": 150,
+          "y": 130
+        },
+        {
+          "x": 150,
+          "y": 90
+        }
+      ],
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e227",
+      "a": {
+        "elId": "e143",
+        "term": 1
+      },
+      "b": {
+        "elId": "e140",
+        "term": 9
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 190,
+          "y": 330
+        },
+        {
+          "x": 230,
+          "y": 330
+        },
+        {
+          "x": 230,
+          "y": 410
+        }
+      ],
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e229",
+      "a": {
+        "elId": "e141",
+        "term": 0
+      },
+      "b": {
+        "elId": "e146",
+        "term": 5
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 248,
+          "y": 330
+        },
+        {
+          "x": 250,
+          "y": 330
+        },
+        {
+          "x": 260,
+          "y": 330
+        },
+        {
+          "x": 260,
+          "y": 224
+        }
+      ],
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e230",
+      "a": {
+        "elId": "e149",
+        "term": 8
+      },
+      "b": {
+        "elId": "e149",
+        "term": 9
+      },
+      "bend": null,
+      "color": "#f1c40f"
+    },
+    {
+      "id": "e255",
+      "a": {
+        "elId": "e149",
+        "term": 3
+      },
+      "b": {
+        "elId": "e149",
+        "term": 0
+      },
+      "bend": null
+    }
+  ],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 1.5,
+    "scrollLeft": 2,
+    "scrollTop": 0
+  }
+}

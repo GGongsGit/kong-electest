@@ -1,0 +1,788 @@
+{
+  "elements": [
+    {
+      "id": "e2",
+      "type": "text",
+      "x": 240,
+      "y": 50,
+      "rot": 0,
+      "label": "[전동기 정회전/역회전 이중 인터록 회로]",
+      "fontSize": 17,
+      "fontColor": "#55bbdd"
+    },
+    {
+      "id": "e4",
+      "type": "power",
+      "x": 75,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e5",
+      "type": "power",
+      "x": 65,
+      "y": 568.1944444444445,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e16",
+      "type": "contactNC",
+      "x": 170,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": "PB0",
+      "contactStyle": "pb",
+      "momentary": true,
+      "closed": true
+    },
+    {
+      "id": "e224",
+      "type": "[전동기 타이머 2개 연속 반복 동작 회로]\r\n전원\r\n전원\r\nPB0\r\nGL\r\nRL\r\nT1\r\nTON 3s\r\nT2\r\nTON 3s\r\nT1\r\n↳ T1 (한시)\r\nT1\r\nT2\r\n↳ T2 (한시)\r\nT2\r\n↳ T2 (한시)\r\nT2\r\n↳ T2 (순시)\r\nT1\r\n↳ T1 (한시)\r\nPB1\r\n",
+      "x": 210,
+      "y": 180,
+      "rot": 0
+    },
+    {
+      "id": "e225",
+      "type": "node",
+      "x": 325,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e226",
+      "type": "node",
+      "x": 567.5,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e227",
+      "type": "node",
+      "x": 439.75,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e228",
+      "type": "node",
+      "x": 680,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e229",
+      "type": "node",
+      "x": 823.3333333333334,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e230",
+      "type": "node",
+      "x": 325,
+      "y": 568.1944444444445,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e231",
+      "type": "node",
+      "x": 567.5,
+      "y": 568.1944444444445,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e232",
+      "type": "node",
+      "x": 439.75,
+      "y": 568.1944444444445,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e233",
+      "type": "node",
+      "x": 680,
+      "y": 568.1944444444445,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e234",
+      "type": "node",
+      "x": 823.3333333333334,
+      "y": 568.1944444444445,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e235",
+      "type": "node",
+      "x": 325,
+      "y": 258,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e236",
+      "type": "node",
+      "x": 325,
+      "y": 476,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e237",
+      "type": "node",
+      "x": 567.5,
+      "y": 258,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e238",
+      "type": "node",
+      "x": 567.5,
+      "y": 476,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e239",
+      "type": "coil",
+      "x": 567.5,
+      "y": 528,
+      "rot": 90,
+      "label": "X2"
+    },
+    {
+      "id": "e240",
+      "type": "coil",
+      "x": 330,
+      "y": 530,
+      "rot": 90,
+      "label": "X1"
+    },
+    {
+      "id": "e241",
+      "type": "lamp",
+      "x": 439.75,
+      "y": 528,
+      "rot": 90,
+      "label": "GL",
+      "color": "green"
+    },
+    {
+      "id": "e242",
+      "type": "lamp",
+      "x": 680,
+      "y": 526,
+      "rot": 90,
+      "label": "YL",
+      "color": "yellow"
+    },
+    {
+      "id": "e243",
+      "type": "lamp",
+      "x": 823.3333333333334,
+      "y": 526,
+      "rot": 90,
+      "label": "RL",
+      "color": "red"
+    },
+    {
+      "id": "e271",
+      "type": "contactNO",
+      "x": 439.75,
+      "y": 202.8,
+      "rot": 90,
+      "label": "PB1",
+      "contactStyle": "pb",
+      "momentary": true,
+      "gangWith": "e293",
+      "closed": false
+    },
+    {
+      "id": "e272",
+      "type": "contactNO",
+      "x": 680,
+      "y": 202.8,
+      "rot": 90,
+      "label": "PB2",
+      "contactStyle": "pb",
+      "momentary": true,
+      "closed": false
+    },
+    {
+      "id": "e277",
+      "type": "contactNC",
+      "x": 823,
+      "y": 202.8,
+      "rot": 90,
+      "label": "X1",
+      "linkedCoil": "e240",
+      "closed": true
+    },
+    {
+      "id": "e284",
+      "type": "contactNO",
+      "x": 570,
+      "y": 202.8,
+      "rot": 90,
+      "label": "X2",
+      "linkedCoil": "e239",
+      "closed": false
+    },
+    {
+      "id": "e287",
+      "type": "contactNO",
+      "x": 330,
+      "y": 202.8,
+      "rot": 90,
+      "label": "X1",
+      "linkedCoil": "e240",
+      "closed": false
+    },
+    {
+      "id": "e290",
+      "type": "contactNC",
+      "x": 325,
+      "y": 318,
+      "rot": 90,
+      "label": "PB2",
+      "contactStyle": "pb",
+      "momentary": true,
+      "gangWith": "e272",
+      "closed": true
+    },
+    {
+      "id": "e293",
+      "type": "contactNC",
+      "x": 567.5,
+      "y": 318,
+      "rot": 90,
+      "label": "PB1",
+      "contactStyle": "pb",
+      "momentary": true,
+      "closed": true
+    },
+    {
+      "id": "e296",
+      "type": "contactNC",
+      "x": 325,
+      "y": 420,
+      "rot": 90,
+      "label": "X2",
+      "linkedCoil": "e239",
+      "closed": true
+    },
+    {
+      "id": "e299",
+      "type": "contactNC",
+      "x": 567.5,
+      "y": 420,
+      "rot": 90,
+      "label": "X1",
+      "linkedCoil": "e240",
+      "closed": true
+    }
+  ],
+  "wires": [
+    {
+      "id": "e24",
+      "a": {
+        "elId": "e4",
+        "term": 0
+      },
+      "b": {
+        "elId": "e16",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e249",
+      "a": {
+        "elId": "e240",
+        "term": 0
+      },
+      "b": {
+        "elId": "e236",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e250",
+      "a": {
+        "elId": "e240",
+        "term": 1
+      },
+      "b": {
+        "elId": "e230",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e251",
+      "a": {
+        "elId": "e16",
+        "term": 1
+      },
+      "b": {
+        "elId": "e225",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e252",
+      "a": {
+        "elId": "e225",
+        "term": 0
+      },
+      "b": {
+        "elId": "e227",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e253",
+      "a": {
+        "elId": "e227",
+        "term": 0
+      },
+      "b": {
+        "elId": "e226",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e254",
+      "a": {
+        "elId": "e226",
+        "term": 0
+      },
+      "b": {
+        "elId": "e228",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e255",
+      "a": {
+        "elId": "e228",
+        "term": 0
+      },
+      "b": {
+        "elId": "e229",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e258",
+      "a": {
+        "elId": "e238",
+        "term": 0
+      },
+      "b": {
+        "elId": "e239",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e259",
+      "a": {
+        "elId": "e239",
+        "term": 1
+      },
+      "b": {
+        "elId": "e231",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e260",
+      "a": {
+        "elId": "e242",
+        "term": 1
+      },
+      "b": {
+        "elId": "e233",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e261",
+      "a": {
+        "elId": "e243",
+        "term": 1
+      },
+      "b": {
+        "elId": "e234",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e262",
+      "a": {
+        "elId": "e5",
+        "term": 0
+      },
+      "b": {
+        "elId": "e230",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e263",
+      "a": {
+        "elId": "e230",
+        "term": 0
+      },
+      "b": {
+        "elId": "e232",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e264",
+      "a": {
+        "elId": "e232",
+        "term": 0
+      },
+      "b": {
+        "elId": "e231",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e265",
+      "a": {
+        "elId": "e231",
+        "term": 0
+      },
+      "b": {
+        "elId": "e233",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e266",
+      "a": {
+        "elId": "e233",
+        "term": 0
+      },
+      "b": {
+        "elId": "e234",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e267",
+      "a": {
+        "elId": "e241",
+        "term": 1
+      },
+      "b": {
+        "elId": "e232",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e273",
+      "a": {
+        "elId": "e227",
+        "term": 0
+      },
+      "b": {
+        "elId": "e271",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e274",
+      "a": {
+        "elId": "e272",
+        "term": 0
+      },
+      "b": {
+        "elId": "e228",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e275",
+      "a": {
+        "elId": "e235",
+        "term": 0
+      },
+      "b": {
+        "elId": "e271",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 439.75,
+          "y": 258
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e276",
+      "a": {
+        "elId": "e237",
+        "term": 0
+      },
+      "b": {
+        "elId": "e272",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 680,
+          "y": 258
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e278",
+      "a": {
+        "elId": "e229",
+        "term": 0
+      },
+      "b": {
+        "elId": "e277",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e279",
+      "a": {
+        "elId": "e277",
+        "term": 1
+      },
+      "b": {
+        "elId": "e243",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e285",
+      "a": {
+        "elId": "e226",
+        "term": 0
+      },
+      "b": {
+        "elId": "e284",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e286",
+      "a": {
+        "elId": "e284",
+        "term": 1
+      },
+      "b": {
+        "elId": "e237",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e288",
+      "a": {
+        "elId": "e225",
+        "term": 0
+      },
+      "b": {
+        "elId": "e287",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e289",
+      "a": {
+        "elId": "e287",
+        "term": 1
+      },
+      "b": {
+        "elId": "e235",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e291",
+      "a": {
+        "elId": "e235",
+        "term": 0
+      },
+      "b": {
+        "elId": "e290",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e294",
+      "a": {
+        "elId": "e237",
+        "term": 0
+      },
+      "b": {
+        "elId": "e293",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e297",
+      "a": {
+        "elId": "e290",
+        "term": 1
+      },
+      "b": {
+        "elId": "e296",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e298",
+      "a": {
+        "elId": "e296",
+        "term": 1
+      },
+      "b": {
+        "elId": "e236",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e300",
+      "a": {
+        "elId": "e293",
+        "term": 1
+      },
+      "b": {
+        "elId": "e299",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e301",
+      "a": {
+        "elId": "e299",
+        "term": 1
+      },
+      "b": {
+        "elId": "e238",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e303",
+      "a": {
+        "elId": "e236",
+        "term": 0
+      },
+      "b": {
+        "elId": "e241",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 439.75,
+          "y": 476
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e304",
+      "a": {
+        "elId": "e238",
+        "term": 0
+      },
+      "b": {
+        "elId": "e242",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 680,
+          "y": 476
+        }
+      ],
+      "color": "#cfe0da"
+    }
+  ],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 1.1,
+    "scrollLeft": 0,
+    "scrollTop": 0
+  }
+}

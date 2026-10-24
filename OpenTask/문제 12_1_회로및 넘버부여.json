@@ -1,0 +1,1587 @@
+{
+  "elements": [
+    {
+      "id": "e1",
+      "type": "power",
+      "x": 124,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e2",
+      "type": "neutral",
+      "x": 120,
+      "y": 240,
+      "rot": 0,
+      "label": "공통(N)"
+    },
+    {
+      "id": "e3",
+      "type": "contactNC",
+      "x": 300,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": "EOCR",
+      "xmark": true,
+      "linkedCoil": "e146"
+    },
+    {
+      "id": "e4",
+      "type": "contactNC",
+      "x": 400,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": "PB0",
+      "momentary": true
+    },
+    {
+      "id": "e5",
+      "type": "node",
+      "x": 440,
+      "y": 118.5714285714285,
+      "rot": 0
+    },
+    {
+      "id": "e6",
+      "type": "contactNO",
+      "x": 324,
+      "y": 480,
+      "rot": 90,
+      "label": "EOCR",
+      "xmark": true,
+      "linkedCoil": "e146",
+      "gangWith": "e3"
+    },
+    {
+      "id": "e7",
+      "type": "lamp",
+      "x": 320,
+      "y": 620,
+      "rot": 90,
+      "label": "YL",
+      "color": "yellow"
+    },
+    {
+      "id": "e9",
+      "type": "contactNO",
+      "x": 460,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "PB1",
+      "momentary": true
+    },
+    {
+      "id": "e10",
+      "type": "contactNO",
+      "x": 650,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "T2",
+      "linkedCoil": "e22"
+    },
+    {
+      "id": "e11",
+      "type": "node",
+      "x": 460,
+      "y": 400,
+      "rot": 0
+    },
+    {
+      "id": "e12",
+      "type": "coil",
+      "x": 460,
+      "y": 620,
+      "rot": 90,
+      "label": "X1"
+    },
+    {
+      "id": "e13",
+      "type": "contactNO",
+      "x": 560,
+      "y": 480,
+      "rot": 90,
+      "label": "LS1",
+      "momentary": false
+    },
+    {
+      "id": "e14",
+      "type": "coil",
+      "x": 660,
+      "y": 620,
+      "rot": 90,
+      "label": "T1",
+      "timerType": "on-delay",
+      "delaySec": 3
+    },
+    {
+      "id": "e15",
+      "type": "contactNC",
+      "x": 660,
+      "y": 480,
+      "rot": 90,
+      "label": "MC1",
+      "linkedCoil": "e16",
+      "timerContactMode": "timed"
+    },
+    {
+      "id": "e16",
+      "type": "coil",
+      "x": 561,
+      "y": 620,
+      "rot": 90,
+      "label": "MC1"
+    },
+    {
+      "id": "e17",
+      "type": "contactNO",
+      "x": 741.1428571428571,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "PB2",
+      "momentary": true
+    },
+    {
+      "id": "e18",
+      "type": "contactNO",
+      "x": 920,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "T1",
+      "linkedCoil": "e14"
+    },
+    {
+      "id": "e19",
+      "type": "node",
+      "x": 741.1428571428571,
+      "y": 400,
+      "rot": 0
+    },
+    {
+      "id": "e20",
+      "type": "coil",
+      "x": 741.1428571428571,
+      "y": 620,
+      "rot": 90,
+      "label": "X2"
+    },
+    {
+      "id": "e22",
+      "type": "coil",
+      "x": 920,
+      "y": 620,
+      "rot": 90,
+      "label": "T2",
+      "timerType": "on-delay",
+      "delaySec": 3
+    },
+    {
+      "id": "e23",
+      "type": "contactNO",
+      "x": 920,
+      "y": 480,
+      "rot": 90,
+      "label": "LS2",
+      "linkedCoil": null,
+      "timerContactMode": "timed"
+    },
+    {
+      "id": "e24",
+      "type": "coil",
+      "x": 840,
+      "y": 620,
+      "rot": 90,
+      "label": "MC2"
+    },
+    {
+      "id": "e25",
+      "type": "contactNO",
+      "x": 1050,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "T1",
+      "linkedCoil": "e14",
+      "timerContactMode": "instant"
+    },
+    {
+      "id": "e26",
+      "type": "contactNO",
+      "x": 1150,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "T2",
+      "linkedCoil": "e22",
+      "timerContactMode": "instant"
+    },
+    {
+      "id": "e30",
+      "type": "lamp",
+      "x": 1050,
+      "y": 620,
+      "rot": 90,
+      "label": "WL",
+      "color": "white"
+    },
+    {
+      "id": "e31",
+      "type": "contactNO",
+      "x": 1250,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "MC1",
+      "linkedCoil": "e16"
+    },
+    {
+      "id": "e32",
+      "type": "lamp",
+      "x": 1250,
+      "y": 620,
+      "rot": 90,
+      "label": "RL",
+      "color": "red"
+    },
+    {
+      "id": "e33",
+      "type": "contactNO",
+      "x": 1360,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "MC2",
+      "linkedCoil": "e24"
+    },
+    {
+      "id": "e34",
+      "type": "lamp",
+      "x": 1360,
+      "y": 620,
+      "rot": 90,
+      "label": "GL",
+      "color": "green"
+    },
+    {
+      "id": "e79",
+      "type": "node",
+      "x": 1360,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e83",
+      "type": "node",
+      "x": 1250,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e84",
+      "type": "node",
+      "x": 1050,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e85",
+      "type": "node",
+      "x": 920,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e86",
+      "type": "node",
+      "x": 840,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e87",
+      "type": "node",
+      "x": 741.1428571428571,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e88",
+      "type": "node",
+      "x": 660,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e89",
+      "type": "node",
+      "x": 560,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e90",
+      "type": "node",
+      "x": 460,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e91",
+      "type": "node",
+      "x": 320,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e92",
+      "type": "node",
+      "x": 220,
+      "y": 720,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e114",
+      "type": "전원\r\n공통(N)\r\nEOCR\r\nPB0\r\nEOCR\r\nYL\r\nEOCR\r\nPB1\r\nX1\r\n↳ X1\r\nX1\r\nLS1\r\nT1\r\nTON 3s\r\nT1\r\n↳ T1\r\nMC1\r\nPB2\r\nX2\r\n↳ X2\r\nX2\r\nLS2\r\nT2\r\nTON 3s\r\nT2\r\n↳ T2\r\nMC2\r\nX1\r\n↳ X1\r\nX2\r\n↳ X2\r\nMC1\r\n↳ MC1\r\nMC2\r\n↳ MC2\r\nWL\r\nMC1\r\n↳ MC1\r\nRL\r\nMC2\r\n↳ MC2\r\nGL\r\n",
+      "x": 220,
+      "y": 620,
+      "rot": 0
+    },
+    {
+      "id": "e120",
+      "type": "node",
+      "x": 460,
+      "y": 300,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e127",
+      "type": "node",
+      "x": 220,
+      "y": 400,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e130",
+      "type": "node",
+      "x": 220,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e134",
+      "type": "node",
+      "x": 120,
+      "y": 440,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e135",
+      "type": "text",
+      "x": 210,
+      "y": 30,
+      "rot": 0,
+      "label": "공개 문제 12번 회로",
+      "fontSize": 19,
+      "fontColor": "#25f8f5"
+    },
+    {
+      "id": "e136",
+      "type": "node",
+      "x": 741.1428571428571,
+      "y": 300,
+      "rot": 90,
+      "label": ""
+    },
+    {
+      "id": "e146",
+      "type": "coil",
+      "x": 220,
+      "y": 570,
+      "rot": 0,
+      "label": "EOCR",
+      "manualCoil": true
+    },
+    {
+      "id": "e147",
+      "type": "node",
+      "x": 220,
+      "y": 520,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e148",
+      "type": "node",
+      "x": 220,
+      "y": 610,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e184",
+      "type": "text",
+      "x": 660,
+      "y": 40,
+      "rot": 0,
+      "label": "10",
+      "fontSize": 18,
+      "fontColor": "#24bc2e"
+    },
+    {
+      "id": "e186",
+      "type": "text",
+      "x": 700,
+      "y": 40,
+      "rot": 0,
+      "label": "4",
+      "fontSize": 18,
+      "fontColor": "#24bc2e"
+    },
+    {
+      "id": "e187",
+      "type": "text",
+      "x": 740,
+      "y": 40,
+      "rot": 0,
+      "label": "A",
+      "fontSize": 18,
+      "fontColor": "#b9a418"
+    },
+    {
+      "id": "e188",
+      "type": "text",
+      "x": 780,
+      "y": 40,
+      "rot": 0,
+      "label": "B",
+      "fontSize": 18,
+      "fontColor": "#b9a418"
+    },
+    {
+      "id": "e200",
+      "type": "node",
+      "x": 920,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e203",
+      "type": "node",
+      "x": 830,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e206",
+      "type": "node",
+      "x": 830,
+      "y": 300,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e209",
+      "type": "contactNO",
+      "x": 830,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "X2",
+      "linkedCoil": "e20"
+    },
+    {
+      "id": "e212",
+      "type": "node",
+      "x": 650,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e215",
+      "type": "node",
+      "x": 741.1428571428571,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e218",
+      "type": "node",
+      "x": 1150,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e221",
+      "type": "node",
+      "x": 1050,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e222",
+      "type": "node",
+      "x": 560,
+      "y": 118.57142857142851,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e223",
+      "type": "node",
+      "x": 1250,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e224",
+      "type": "node",
+      "x": 1360,
+      "y": 118.5714285714285,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e225",
+      "type": "node",
+      "x": 560,
+      "y": 310,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e240",
+      "type": "contactNO",
+      "x": 560,
+      "y": 203.63636363636363,
+      "rot": 90,
+      "label": "X1",
+      "linkedCoil": "e12"
+    },
+    {
+      "id": "e245",
+      "type": "node",
+      "x": 840,
+      "y": 550,
+      "rot": 90,
+      "label": ""
+    },
+    {
+      "id": "e248",
+      "type": "node",
+      "x": 741.1428571428571,
+      "y": 550,
+      "rot": 90,
+      "label": ""
+    },
+    {
+      "id": "e252",
+      "type": "node",
+      "x": 1050,
+      "y": 300,
+      "rot": 90,
+      "label": ""
+    }
+  ],
+  "wires": [
+    {
+      "id": "e36",
+      "a": {
+        "elId": "e3",
+        "term": 1
+      },
+      "b": {
+        "elId": "e4",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e37",
+      "a": {
+        "elId": "e4",
+        "term": 1
+      },
+      "b": {
+        "elId": "e5",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e39",
+      "a": {
+        "elId": "e6",
+        "term": 1
+      },
+      "b": {
+        "elId": "e7",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e41",
+      "a": {
+        "elId": "e5",
+        "term": 0
+      },
+      "b": {
+        "elId": "e9",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e45",
+      "a": {
+        "elId": "e11",
+        "term": 0
+      },
+      "b": {
+        "elId": "e12",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e47",
+      "a": {
+        "elId": "e11",
+        "term": 0
+      },
+      "b": {
+        "elId": "e13",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e50",
+      "a": {
+        "elId": "e11",
+        "term": 0
+      },
+      "b": {
+        "elId": "e15",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e62",
+      "a": {
+        "elId": "e19",
+        "term": 0
+      },
+      "b": {
+        "elId": "e23",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e74",
+      "a": {
+        "elId": "e31",
+        "term": 1
+      },
+      "b": {
+        "elId": "e32",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e77",
+      "a": {
+        "elId": "e33",
+        "term": 1
+      },
+      "b": {
+        "elId": "e34",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e81",
+      "a": {
+        "elId": "e34",
+        "term": 1
+      },
+      "b": {
+        "elId": "e79",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e93",
+      "a": {
+        "elId": "e2",
+        "term": 0
+      },
+      "b": {
+        "elId": "e92",
+        "term": 0
+      },
+      "bend": {
+        "x": 120,
+        "y": 720
+      }
+    },
+    {
+      "id": "e94",
+      "a": {
+        "elId": "e92",
+        "term": 0
+      },
+      "b": {
+        "elId": "e91",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e95",
+      "a": {
+        "elId": "e91",
+        "term": 0
+      },
+      "b": {
+        "elId": "e90",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e96",
+      "a": {
+        "elId": "e90",
+        "term": 0
+      },
+      "b": {
+        "elId": "e89",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e97",
+      "a": {
+        "elId": "e89",
+        "term": 0
+      },
+      "b": {
+        "elId": "e88",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e98",
+      "a": {
+        "elId": "e88",
+        "term": 0
+      },
+      "b": {
+        "elId": "e87",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e99",
+      "a": {
+        "elId": "e87",
+        "term": 0
+      },
+      "b": {
+        "elId": "e86",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e100",
+      "a": {
+        "elId": "e86",
+        "term": 0
+      },
+      "b": {
+        "elId": "e85",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e101",
+      "a": {
+        "elId": "e85",
+        "term": 0
+      },
+      "b": {
+        "elId": "e84",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e102",
+      "a": {
+        "elId": "e84",
+        "term": 0
+      },
+      "b": {
+        "elId": "e83",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e103",
+      "a": {
+        "elId": "e83",
+        "term": 0
+      },
+      "b": {
+        "elId": "e79",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e105",
+      "a": {
+        "elId": "e7",
+        "term": 1
+      },
+      "b": {
+        "elId": "e91",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e106",
+      "a": {
+        "elId": "e12",
+        "term": 1
+      },
+      "b": {
+        "elId": "e90",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e109",
+      "a": {
+        "elId": "e20",
+        "term": 1
+      },
+      "b": {
+        "elId": "e87",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e112",
+      "a": {
+        "elId": "e30",
+        "term": 1
+      },
+      "b": {
+        "elId": "e84",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e113",
+      "a": {
+        "elId": "e32",
+        "term": 1
+      },
+      "b": {
+        "elId": "e83",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e121",
+      "a": {
+        "elId": "e120",
+        "term": 0
+      },
+      "b": {
+        "elId": "e11",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e122",
+      "a": {
+        "elId": "e9",
+        "term": 1
+      },
+      "b": {
+        "elId": "e120",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e125",
+      "a": {
+        "elId": "e5",
+        "term": 0
+      },
+      "b": {
+        "elId": "e4",
+        "term": 1
+      },
+      "bend": null
+    },
+    {
+      "id": "e128",
+      "a": {
+        "elId": "e127",
+        "term": 0
+      },
+      "b": {
+        "elId": "e6",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e131",
+      "a": {
+        "elId": "e1",
+        "term": 0
+      },
+      "b": {
+        "elId": "e130",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e132",
+      "a": {
+        "elId": "e130",
+        "term": 0
+      },
+      "b": {
+        "elId": "e3",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e137",
+      "a": {
+        "elId": "e17",
+        "term": 1
+      },
+      "b": {
+        "elId": "e136",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e138",
+      "a": {
+        "elId": "e136",
+        "term": 0
+      },
+      "b": {
+        "elId": "e19",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e143",
+      "a": {
+        "elId": "e130",
+        "term": 0
+      },
+      "b": {
+        "elId": "e127",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e149",
+      "a": {
+        "elId": "e127",
+        "term": 0
+      },
+      "b": {
+        "elId": "e147",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e150",
+      "a": {
+        "elId": "e148",
+        "term": 0
+      },
+      "b": {
+        "elId": "e92",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e189",
+      "a": {
+        "elId": "e13",
+        "term": 1
+      },
+      "b": {
+        "elId": "e16",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 560,
+          "y": 592
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e190",
+      "a": {
+        "elId": "e89",
+        "term": 0
+      },
+      "b": {
+        "elId": "e16",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 560,
+          "y": 648
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e191",
+      "a": {
+        "elId": "e15",
+        "term": 1
+      },
+      "b": {
+        "elId": "e14",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e192",
+      "a": {
+        "elId": "e14",
+        "term": 1
+      },
+      "b": {
+        "elId": "e88",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e194",
+      "a": {
+        "elId": "e24",
+        "term": 1
+      },
+      "b": {
+        "elId": "e86",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e195",
+      "a": {
+        "elId": "e85",
+        "term": 0
+      },
+      "b": {
+        "elId": "e22",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e196",
+      "a": {
+        "elId": "e22",
+        "term": 0
+      },
+      "b": {
+        "elId": "e23",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e202",
+      "a": {
+        "elId": "e200",
+        "term": 0
+      },
+      "b": {
+        "elId": "e18",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e207",
+      "a": {
+        "elId": "e136",
+        "term": 0
+      },
+      "b": {
+        "elId": "e206",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e208",
+      "a": {
+        "elId": "e206",
+        "term": 0
+      },
+      "b": {
+        "elId": "e18",
+        "term": 1
+      },
+      "bend": null
+    },
+    {
+      "id": "e210",
+      "a": {
+        "elId": "e203",
+        "term": 0
+      },
+      "b": {
+        "elId": "e209",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e211",
+      "a": {
+        "elId": "e209",
+        "term": 1
+      },
+      "b": {
+        "elId": "e206",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e214",
+      "a": {
+        "elId": "e212",
+        "term": 0
+      },
+      "b": {
+        "elId": "e10",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e217",
+      "a": {
+        "elId": "e215",
+        "term": 0
+      },
+      "b": {
+        "elId": "e17",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e220",
+      "a": {
+        "elId": "e218",
+        "term": 0
+      },
+      "b": {
+        "elId": "e26",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e226",
+      "a": {
+        "elId": "e10",
+        "term": 1
+      },
+      "b": {
+        "elId": "e225",
+        "term": 0
+      },
+      "bend": {
+        "x": 650,
+        "y": 310
+      }
+    },
+    {
+      "id": "e227",
+      "a": {
+        "elId": "e225",
+        "term": 0
+      },
+      "b": {
+        "elId": "e120",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e228",
+      "a": {
+        "elId": "e5",
+        "term": 0
+      },
+      "b": {
+        "elId": "e222",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 560,
+          "y": 117.6923076923077
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e229",
+      "a": {
+        "elId": "e222",
+        "term": 0
+      },
+      "b": {
+        "elId": "e212",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 650,
+          "y": 120
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e230",
+      "a": {
+        "elId": "e212",
+        "term": 0
+      },
+      "b": {
+        "elId": "e215",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e231",
+      "a": {
+        "elId": "e215",
+        "term": 0
+      },
+      "b": {
+        "elId": "e203",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e232",
+      "a": {
+        "elId": "e203",
+        "term": 0
+      },
+      "b": {
+        "elId": "e200",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e233",
+      "a": {
+        "elId": "e200",
+        "term": 0
+      },
+      "b": {
+        "elId": "e221",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e234",
+      "a": {
+        "elId": "e221",
+        "term": 0
+      },
+      "b": {
+        "elId": "e218",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e235",
+      "a": {
+        "elId": "e218",
+        "term": 0
+      },
+      "b": {
+        "elId": "e223",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e236",
+      "a": {
+        "elId": "e223",
+        "term": 0
+      },
+      "b": {
+        "elId": "e224",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e237",
+      "a": {
+        "elId": "e224",
+        "term": 0
+      },
+      "b": {
+        "elId": "e33",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e238",
+      "a": {
+        "elId": "e221",
+        "term": 0
+      },
+      "b": {
+        "elId": "e25",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e239",
+      "a": {
+        "elId": "e223",
+        "term": 0
+      },
+      "b": {
+        "elId": "e31",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e241",
+      "a": {
+        "elId": "e240",
+        "term": 1
+      },
+      "b": {
+        "elId": "e225",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e242",
+      "a": {
+        "elId": "e240",
+        "term": 0
+      },
+      "b": {
+        "elId": "e222",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e247",
+      "a": {
+        "elId": "e245",
+        "term": 0
+      },
+      "b": {
+        "elId": "e24",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e249",
+      "a": {
+        "elId": "e19",
+        "term": 0
+      },
+      "b": {
+        "elId": "e248",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e250",
+      "a": {
+        "elId": "e248",
+        "term": 0
+      },
+      "b": {
+        "elId": "e20",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e251",
+      "a": {
+        "elId": "e248",
+        "term": 0
+      },
+      "b": {
+        "elId": "e245",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e254",
+      "a": {
+        "elId": "e252",
+        "term": 0
+      },
+      "b": {
+        "elId": "e30",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e255",
+      "a": {
+        "elId": "e252",
+        "term": 0
+      },
+      "b": {
+        "elId": "e26",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 1150,
+          "y": 300
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e256",
+      "a": {
+        "elId": "e25",
+        "term": 1
+      },
+      "b": {
+        "elId": "e252",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    }
+  ],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 0.9,
+    "scrollLeft": 0,
+    "scrollTop": 0
+  }
+}

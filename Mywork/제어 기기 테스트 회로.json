@@ -1,0 +1,1717 @@
+{
+  "elements": [
+    {
+      "id": "e2",
+      "type": "text",
+      "x": 160,
+      "y": 50,
+      "rot": 0,
+      "label": "[제어 기기 테스트 회로]",
+      "fontSize": 17,
+      "fontColor": "#55bbdd"
+    },
+    {
+      "id": "e4",
+      "type": "power",
+      "x": 70,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e5",
+      "type": "power",
+      "x": 70,
+      "y": 435.79166666666663,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e16",
+      "type": "contactNC",
+      "x": 170,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": "PB0",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e225",
+      "type": "contactNO",
+      "x": 252,
+      "y": 202.5,
+      "rot": 90,
+      "label": "PB1",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e226",
+      "type": "coil",
+      "x": 252,
+      "y": 360,
+      "rot": 90,
+      "label": "T1",
+      "timerType": "on-delay",
+      "delaySec": 3
+    },
+    {
+      "id": "e227",
+      "type": "contactNO",
+      "x": 485,
+      "y": 202.5,
+      "rot": 90,
+      "label": "T1",
+      "timerContactMode": "instant",
+      "linkedCoil": "e226",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e228",
+      "type": "contactNO",
+      "x": 610,
+      "y": 202.5,
+      "rot": 90,
+      "label": "T1",
+      "contactStyle": "timerDelay",
+      "linkedCoil": "e226",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e229",
+      "type": "lamp",
+      "x": 485,
+      "y": 360,
+      "rot": 90,
+      "label": "GL",
+      "color": "green"
+    },
+    {
+      "id": "e230",
+      "type": "lamp",
+      "x": 610,
+      "y": 360,
+      "rot": 90,
+      "label": "RL",
+      "color": "red"
+    },
+    {
+      "id": "e231",
+      "type": "node",
+      "x": 252,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e232",
+      "type": "node",
+      "x": 485,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e233",
+      "type": "node",
+      "x": 610,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e234",
+      "type": "node",
+      "x": 252,
+      "y": 435.79166666666663,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e235",
+      "type": "node",
+      "x": 485,
+      "y": 435.79166666666663,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e236",
+      "type": "node",
+      "x": 610,
+      "y": 435.79166666666663,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e253",
+      "type": "node",
+      "x": 252,
+      "y": 295,
+      "rot": 90,
+      "label": ""
+    },
+    {
+      "id": "e256",
+      "type": "node",
+      "x": 386.6666666666667,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e259",
+      "type": "node",
+      "x": 386.6666666666667,
+      "y": 295,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e260",
+      "type": "contactNO",
+      "x": 386.6666666666667,
+      "y": 202.5,
+      "rot": 90,
+      "label": "T1",
+      "timerContactMode": "instant",
+      "linkedCoil": "e226",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e306",
+      "type": "power",
+      "x": 70,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e307",
+      "type": "power",
+      "x": 70,
+      "y": 885.7916666666666,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e308",
+      "type": "contactNC",
+      "x": 170,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": "PB0",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e309",
+      "type": "contactNO",
+      "x": 252,
+      "y": 652.5,
+      "rot": 90,
+      "label": "PB1",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e310",
+      "type": "coil",
+      "x": 252,
+      "y": 810,
+      "rot": 90,
+      "label": "T1",
+      "timerType": "on-delay",
+      "delaySec": 3
+    },
+    {
+      "id": "e311",
+      "type": "contactNO",
+      "x": 485,
+      "y": 652.5,
+      "rot": 90,
+      "label": "T1",
+      "timerContactMode": "instant",
+      "linkedCoil": "e310",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e312",
+      "type": "contactNC",
+      "x": 610,
+      "y": 652.5,
+      "rot": 90,
+      "label": "T1",
+      "contactStyle": "timerDelay",
+      "linkedCoil": "e310",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e313",
+      "type": "lamp",
+      "x": 485,
+      "y": 810,
+      "rot": 90,
+      "label": "GL",
+      "color": "green"
+    },
+    {
+      "id": "e314",
+      "type": "lamp",
+      "x": 610,
+      "y": 810,
+      "rot": 90,
+      "label": "RL",
+      "color": "red"
+    },
+    {
+      "id": "e315",
+      "type": "node",
+      "x": 252,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e316",
+      "type": "node",
+      "x": 485,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e317",
+      "type": "node",
+      "x": 610,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e318",
+      "type": "node",
+      "x": 252,
+      "y": 885.7916666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e319",
+      "type": "node",
+      "x": 485,
+      "y": 885.7916666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e320",
+      "type": "node",
+      "x": 610,
+      "y": 885.7916666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e321",
+      "type": "node",
+      "x": 252,
+      "y": 745,
+      "rot": 90,
+      "label": ""
+    },
+    {
+      "id": "e322",
+      "type": "node",
+      "x": 386.6666666666667,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e323",
+      "type": "node",
+      "x": 386.6666666666667,
+      "y": 745,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e324",
+      "type": "contactNO",
+      "x": 386.6666666666667,
+      "y": 652.5,
+      "rot": 90,
+      "label": "T1",
+      "timerContactMode": "instant",
+      "linkedCoil": "e310",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e346",
+      "type": "text",
+      "x": 150,
+      "y": 260,
+      "rot": 0,
+      "label": "타이머 동작 테스트",
+      "fontSize": 17,
+      "fontColor": "#dade0d"
+    },
+    {
+      "id": "e347",
+      "type": "text",
+      "x": 140,
+      "y": 710,
+      "rot": 0,
+      "label": "타이머 동작 테스트",
+      "fontSize": 17,
+      "fontColor": "#dade0d"
+    },
+    {
+      "id": "e430",
+      "type": "power",
+      "x": 840,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e431",
+      "type": "power",
+      "x": 840,
+      "y": 435.79166666666663,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e432",
+      "type": "contactNC",
+      "x": 940,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": "PB0",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e433",
+      "type": "contactNO",
+      "x": 1022,
+      "y": 202.5,
+      "rot": 90,
+      "label": "PB1",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e434",
+      "type": "coil",
+      "x": 1022,
+      "y": 360,
+      "rot": 90,
+      "label": "T1",
+      "timerType": "on-delay",
+      "delaySec": 3
+    },
+    {
+      "id": "e435",
+      "type": "contactNO",
+      "x": 1145,
+      "y": 202.5,
+      "rot": 90,
+      "label": "T1",
+      "timerContactMode": "instant",
+      "linkedCoil": "e434",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e436",
+      "type": "contactNO",
+      "x": 1270,
+      "y": 202.5,
+      "rot": 90,
+      "label": "T1",
+      "contactStyle": "timerDelay",
+      "linkedCoil": "e434",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e437",
+      "type": "lamp",
+      "x": 1145,
+      "y": 360,
+      "rot": 90,
+      "label": "GL",
+      "color": "green"
+    },
+    {
+      "id": "e438",
+      "type": "lamp",
+      "x": 1270,
+      "y": 360,
+      "rot": 90,
+      "label": "RL",
+      "color": "red"
+    },
+    {
+      "id": "e439",
+      "type": "node",
+      "x": 1022,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e440",
+      "type": "node",
+      "x": 1145,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e441",
+      "type": "node",
+      "x": 1270,
+      "y": 106.50793650793653,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e442",
+      "type": "node",
+      "x": 1022,
+      "y": 435.79166666666663,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e443",
+      "type": "node",
+      "x": 1145,
+      "y": 435.79166666666663,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e444",
+      "type": "node",
+      "x": 1270,
+      "y": 435.79166666666663,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e449",
+      "type": "power",
+      "x": 840,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e450",
+      "type": "power",
+      "x": 840,
+      "y": 885.7916666666666,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e451",
+      "type": "contactNC",
+      "x": 940,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": "PB0",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e452",
+      "type": "contactNO",
+      "x": 1022,
+      "y": 652.5,
+      "rot": 90,
+      "label": "PB1",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e453",
+      "type": "coil",
+      "x": 1022,
+      "y": 810,
+      "rot": 90,
+      "label": "T1",
+      "timerType": "on-delay",
+      "delaySec": 3
+    },
+    {
+      "id": "e454",
+      "type": "contactNC",
+      "x": 1255,
+      "y": 652.5,
+      "rot": 90,
+      "label": "T1",
+      "timerContactMode": "timed",
+      "linkedCoil": "e453",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e455",
+      "type": "contactNO",
+      "x": 1380,
+      "y": 652.5,
+      "rot": 90,
+      "label": "T1",
+      "contactStyle": "timerDelay",
+      "linkedCoil": "e453",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e456",
+      "type": "lamp",
+      "x": 1255,
+      "y": 810,
+      "rot": 90,
+      "label": "GL",
+      "color": "green"
+    },
+    {
+      "id": "e457",
+      "type": "lamp",
+      "x": 1380,
+      "y": 810,
+      "rot": 90,
+      "label": "RL",
+      "color": "red"
+    },
+    {
+      "id": "e458",
+      "type": "node",
+      "x": 1022,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e459",
+      "type": "node",
+      "x": 1255,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e460",
+      "type": "node",
+      "x": 1380,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e461",
+      "type": "node",
+      "x": 1022,
+      "y": 885.7916666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e462",
+      "type": "node",
+      "x": 1255,
+      "y": 885.7916666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e463",
+      "type": "node",
+      "x": 1380,
+      "y": 885.7916666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e464",
+      "type": "node",
+      "x": 1022,
+      "y": 745,
+      "rot": 90,
+      "label": ""
+    },
+    {
+      "id": "e465",
+      "type": "node",
+      "x": 1156.6666666666667,
+      "y": 556.5079365079365,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e466",
+      "type": "node",
+      "x": 1156.6666666666667,
+      "y": 745,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e467",
+      "type": "contactNO",
+      "x": 1156.6666666666667,
+      "y": 652.5,
+      "rot": 90,
+      "label": "T1",
+      "timerContactMode": "instant",
+      "linkedCoil": "e453",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e468",
+      "type": "text",
+      "x": 920,
+      "y": 260,
+      "rot": 0,
+      "label": "타이머 동작 테스트",
+      "fontSize": 17,
+      "fontColor": "#dade0d"
+    },
+    {
+      "id": "e469",
+      "type": "text",
+      "x": 910,
+      "y": 710,
+      "rot": 0,
+      "label": "타이머 동작 테스트",
+      "fontSize": 17,
+      "fontColor": "#dade0d"
+    }
+  ],
+  "wires": [
+    {
+      "id": "e24",
+      "a": {
+        "elId": "e4",
+        "term": 0
+      },
+      "b": {
+        "elId": "e16",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e238",
+      "a": {
+        "elId": "e16",
+        "term": 1
+      },
+      "b": {
+        "elId": "e231",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e240",
+      "a": {
+        "elId": "e232",
+        "term": 0
+      },
+      "b": {
+        "elId": "e233",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e241",
+      "a": {
+        "elId": "e233",
+        "term": 0
+      },
+      "b": {
+        "elId": "e228",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e242",
+      "a": {
+        "elId": "e228",
+        "term": 1
+      },
+      "b": {
+        "elId": "e230",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e243",
+      "a": {
+        "elId": "e230",
+        "term": 1
+      },
+      "b": {
+        "elId": "e236",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e244",
+      "a": {
+        "elId": "e229",
+        "term": 1
+      },
+      "b": {
+        "elId": "e235",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e245",
+      "a": {
+        "elId": "e227",
+        "term": 1
+      },
+      "b": {
+        "elId": "e229",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e246",
+      "a": {
+        "elId": "e232",
+        "term": 0
+      },
+      "b": {
+        "elId": "e227",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e247",
+      "a": {
+        "elId": "e231",
+        "term": 0
+      },
+      "b": {
+        "elId": "e225",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e248",
+      "a": {
+        "elId": "e226",
+        "term": 1
+      },
+      "b": {
+        "elId": "e234",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e249",
+      "a": {
+        "elId": "e5",
+        "term": 0
+      },
+      "b": {
+        "elId": "e234",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e250",
+      "a": {
+        "elId": "e234",
+        "term": 0
+      },
+      "b": {
+        "elId": "e235",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e251",
+      "a": {
+        "elId": "e235",
+        "term": 0
+      },
+      "b": {
+        "elId": "e236",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e254",
+      "a": {
+        "elId": "e225",
+        "term": 1
+      },
+      "b": {
+        "elId": "e253",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e255",
+      "a": {
+        "elId": "e253",
+        "term": 0
+      },
+      "b": {
+        "elId": "e226",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e257",
+      "a": {
+        "elId": "e231",
+        "term": 0
+      },
+      "b": {
+        "elId": "e256",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e258",
+      "a": {
+        "elId": "e256",
+        "term": 0
+      },
+      "b": {
+        "elId": "e232",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e262",
+      "a": {
+        "elId": "e260",
+        "term": 1
+      },
+      "b": {
+        "elId": "e259",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e264",
+      "a": {
+        "elId": "e260",
+        "term": 0
+      },
+      "b": {
+        "elId": "e256",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e265",
+      "a": {
+        "elId": "e253",
+        "term": 0
+      },
+      "b": {
+        "elId": "e259",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e325",
+      "a": {
+        "elId": "e306",
+        "term": 0
+      },
+      "b": {
+        "elId": "e308",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e326",
+      "a": {
+        "elId": "e308",
+        "term": 1
+      },
+      "b": {
+        "elId": "e315",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e327",
+      "a": {
+        "elId": "e316",
+        "term": 0
+      },
+      "b": {
+        "elId": "e317",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e328",
+      "a": {
+        "elId": "e317",
+        "term": 0
+      },
+      "b": {
+        "elId": "e312",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e329",
+      "a": {
+        "elId": "e312",
+        "term": 1
+      },
+      "b": {
+        "elId": "e314",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e330",
+      "a": {
+        "elId": "e314",
+        "term": 1
+      },
+      "b": {
+        "elId": "e320",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e331",
+      "a": {
+        "elId": "e313",
+        "term": 1
+      },
+      "b": {
+        "elId": "e319",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e332",
+      "a": {
+        "elId": "e311",
+        "term": 1
+      },
+      "b": {
+        "elId": "e313",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e333",
+      "a": {
+        "elId": "e316",
+        "term": 0
+      },
+      "b": {
+        "elId": "e311",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e334",
+      "a": {
+        "elId": "e315",
+        "term": 0
+      },
+      "b": {
+        "elId": "e309",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e335",
+      "a": {
+        "elId": "e310",
+        "term": 1
+      },
+      "b": {
+        "elId": "e318",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e336",
+      "a": {
+        "elId": "e307",
+        "term": 0
+      },
+      "b": {
+        "elId": "e318",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e337",
+      "a": {
+        "elId": "e318",
+        "term": 0
+      },
+      "b": {
+        "elId": "e319",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e338",
+      "a": {
+        "elId": "e319",
+        "term": 0
+      },
+      "b": {
+        "elId": "e320",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e339",
+      "a": {
+        "elId": "e309",
+        "term": 1
+      },
+      "b": {
+        "elId": "e321",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e340",
+      "a": {
+        "elId": "e321",
+        "term": 0
+      },
+      "b": {
+        "elId": "e310",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e341",
+      "a": {
+        "elId": "e315",
+        "term": 0
+      },
+      "b": {
+        "elId": "e322",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e342",
+      "a": {
+        "elId": "e322",
+        "term": 0
+      },
+      "b": {
+        "elId": "e316",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e343",
+      "a": {
+        "elId": "e324",
+        "term": 1
+      },
+      "b": {
+        "elId": "e323",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e344",
+      "a": {
+        "elId": "e324",
+        "term": 0
+      },
+      "b": {
+        "elId": "e322",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e345",
+      "a": {
+        "elId": "e321",
+        "term": 0
+      },
+      "b": {
+        "elId": "e323",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e470",
+      "a": {
+        "elId": "e430",
+        "term": 0
+      },
+      "b": {
+        "elId": "e432",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e471",
+      "a": {
+        "elId": "e432",
+        "term": 1
+      },
+      "b": {
+        "elId": "e439",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e472",
+      "a": {
+        "elId": "e440",
+        "term": 0
+      },
+      "b": {
+        "elId": "e441",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e473",
+      "a": {
+        "elId": "e441",
+        "term": 0
+      },
+      "b": {
+        "elId": "e436",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e474",
+      "a": {
+        "elId": "e436",
+        "term": 1
+      },
+      "b": {
+        "elId": "e438",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e475",
+      "a": {
+        "elId": "e438",
+        "term": 1
+      },
+      "b": {
+        "elId": "e444",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e476",
+      "a": {
+        "elId": "e437",
+        "term": 1
+      },
+      "b": {
+        "elId": "e443",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e477",
+      "a": {
+        "elId": "e435",
+        "term": 1
+      },
+      "b": {
+        "elId": "e437",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e478",
+      "a": {
+        "elId": "e440",
+        "term": 0
+      },
+      "b": {
+        "elId": "e435",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e479",
+      "a": {
+        "elId": "e439",
+        "term": 0
+      },
+      "b": {
+        "elId": "e433",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e480",
+      "a": {
+        "elId": "e434",
+        "term": 1
+      },
+      "b": {
+        "elId": "e442",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e481",
+      "a": {
+        "elId": "e431",
+        "term": 0
+      },
+      "b": {
+        "elId": "e442",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e482",
+      "a": {
+        "elId": "e442",
+        "term": 0
+      },
+      "b": {
+        "elId": "e443",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e483",
+      "a": {
+        "elId": "e443",
+        "term": 0
+      },
+      "b": {
+        "elId": "e444",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e491",
+      "a": {
+        "elId": "e449",
+        "term": 0
+      },
+      "b": {
+        "elId": "e451",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e492",
+      "a": {
+        "elId": "e451",
+        "term": 1
+      },
+      "b": {
+        "elId": "e458",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e493",
+      "a": {
+        "elId": "e459",
+        "term": 0
+      },
+      "b": {
+        "elId": "e460",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e494",
+      "a": {
+        "elId": "e460",
+        "term": 0
+      },
+      "b": {
+        "elId": "e455",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e495",
+      "a": {
+        "elId": "e455",
+        "term": 1
+      },
+      "b": {
+        "elId": "e457",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e496",
+      "a": {
+        "elId": "e457",
+        "term": 1
+      },
+      "b": {
+        "elId": "e463",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e497",
+      "a": {
+        "elId": "e456",
+        "term": 1
+      },
+      "b": {
+        "elId": "e462",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e498",
+      "a": {
+        "elId": "e454",
+        "term": 1
+      },
+      "b": {
+        "elId": "e456",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e499",
+      "a": {
+        "elId": "e459",
+        "term": 0
+      },
+      "b": {
+        "elId": "e454",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e500",
+      "a": {
+        "elId": "e458",
+        "term": 0
+      },
+      "b": {
+        "elId": "e452",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e501",
+      "a": {
+        "elId": "e453",
+        "term": 1
+      },
+      "b": {
+        "elId": "e461",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e502",
+      "a": {
+        "elId": "e450",
+        "term": 0
+      },
+      "b": {
+        "elId": "e461",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e503",
+      "a": {
+        "elId": "e461",
+        "term": 0
+      },
+      "b": {
+        "elId": "e462",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e504",
+      "a": {
+        "elId": "e462",
+        "term": 0
+      },
+      "b": {
+        "elId": "e463",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e505",
+      "a": {
+        "elId": "e452",
+        "term": 1
+      },
+      "b": {
+        "elId": "e464",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e506",
+      "a": {
+        "elId": "e464",
+        "term": 0
+      },
+      "b": {
+        "elId": "e453",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e507",
+      "a": {
+        "elId": "e458",
+        "term": 0
+      },
+      "b": {
+        "elId": "e465",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e508",
+      "a": {
+        "elId": "e465",
+        "term": 0
+      },
+      "b": {
+        "elId": "e459",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e509",
+      "a": {
+        "elId": "e467",
+        "term": 1
+      },
+      "b": {
+        "elId": "e466",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e510",
+      "a": {
+        "elId": "e467",
+        "term": 0
+      },
+      "b": {
+        "elId": "e465",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e511",
+      "a": {
+        "elId": "e464",
+        "term": 0
+      },
+      "b": {
+        "elId": "e466",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e513",
+      "a": {
+        "elId": "e439",
+        "term": 0
+      },
+      "b": {
+        "elId": "e440",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e514",
+      "a": {
+        "elId": "e433",
+        "term": 1
+      },
+      "b": {
+        "elId": "e434",
+        "term": 0
+      },
+      "bend": null
+    }
+  ],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 0.8,
+    "scrollLeft": 0,
+    "scrollTop": 0
+  }
+}

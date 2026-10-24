@@ -1,0 +1,959 @@
+{
+  "elements": [
+    {
+      "id": "e2",
+      "type": "text",
+      "x": 210,
+      "y": 50,
+      "rot": 0,
+      "label": "[버튼 1개로 기동_정지 제어 회로]",
+      "fontSize": 17,
+      "fontColor": "#55bbdd"
+    },
+    {
+      "id": "e4",
+      "type": "power",
+      "x": 75,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e5",
+      "type": "power",
+      "x": 65,
+      "y": 568.452380952381,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e16",
+      "type": "contactNC",
+      "x": 170,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": "PB0",
+      "contactStyle": "pb",
+      "momentary": true,
+      "closed": true
+    },
+    {
+      "id": "e225",
+      "type": "node",
+      "x": 239.01234567901236,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e226",
+      "type": "node",
+      "x": 742.3015873015873,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e227",
+      "type": "node",
+      "x": 619.8333333333334,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e228",
+      "type": "node",
+      "x": 852.5,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e229",
+      "type": "node",
+      "x": 988.888888888889,
+      "y": 141.08843537414967,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e230",
+      "type": "node",
+      "x": 239.01234567901236,
+      "y": 568.452380952381,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e231",
+      "type": "node",
+      "x": 742.3015873015873,
+      "y": 568.452380952381,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e232",
+      "type": "node",
+      "x": 619.8333333333334,
+      "y": 568.452380952381,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e233",
+      "type": "node",
+      "x": 852.5,
+      "y": 568.452380952381,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e234",
+      "type": "node",
+      "x": 988.888888888889,
+      "y": 568.452380952381,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e317",
+      "type": "node",
+      "x": 239.01234567901236,
+      "y": 242.5,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e318",
+      "type": "node",
+      "x": 350,
+      "y": 242.5,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e319",
+      "type": "node",
+      "x": 470,
+      "y": 242.5,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e320",
+      "type": "node",
+      "x": 619.8333333333334,
+      "y": 242.5,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e325",
+      "type": "node",
+      "x": 239.01234567901236,
+      "y": 465,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e326",
+      "type": "node",
+      "x": 470,
+      "y": 465,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e327",
+      "type": "coil",
+      "x": 240.01234567901236,
+      "y": 518,
+      "rot": 90,
+      "label": "X1"
+    },
+    {
+      "id": "e328",
+      "type": "coil",
+      "x": 470,
+      "y": 518,
+      "rot": 90,
+      "label": "X2"
+    },
+    {
+      "id": "e329",
+      "type": "coil",
+      "x": 742.3015873015873,
+      "y": 518,
+      "rot": 90,
+      "label": "X3"
+    },
+    {
+      "id": "e333",
+      "type": "contactNO",
+      "x": 350,
+      "y": 354,
+      "rot": 90,
+      "label": "X1",
+      "linkedCoil": "e327",
+      "closed": false
+    },
+    {
+      "id": "e334",
+      "type": "contactNC",
+      "x": 239.01234567901236,
+      "y": 300,
+      "rot": 90,
+      "label": "X2",
+      "linkedCoil": "e328",
+      "closed": true
+    },
+    {
+      "id": "e337",
+      "type": "contactNO",
+      "x": 240,
+      "y": 410,
+      "rot": 90,
+      "label": "X3",
+      "linkedCoil": "e329",
+      "closed": false
+    },
+    {
+      "id": "e343",
+      "type": "contactNO",
+      "x": 239.01234567901236,
+      "y": 190,
+      "rot": 90,
+      "label": "PB",
+      "contactStyle": "pb",
+      "momentary": true,
+      "closed": false
+    },
+    {
+      "id": "e346",
+      "type": "[버튼 1개로 기동_정지 제어 회로]\r\n전원\r\n전원\r\nPB0\r\nX1\r\nX2\r\nX3\r\nX1\r\nX2\r\nX3\r\nPB\r\n",
+      "x": 239.01234567901236,
+      "y": 451,
+      "rot": 0
+    },
+    {
+      "id": "e351",
+      "type": "node",
+      "x": 470,
+      "y": 568.452380952381,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e357",
+      "type": "contactNO",
+      "x": 470,
+      "y": 310,
+      "rot": 90,
+      "label": "X2",
+      "linkedCoil": "e328",
+      "closed": false
+    },
+    {
+      "id": "e360",
+      "type": "contactNO",
+      "x": 470,
+      "y": 410,
+      "rot": 90,
+      "label": "X3",
+      "linkedCoil": "e329",
+      "closed": false
+    },
+    {
+      "id": "e363",
+      "type": "a접점",
+      "x": 1350,
+      "y": 60,
+      "rot": 0,
+      "label": "R2"
+    },
+    {
+      "id": "e364",
+      "type": "contactNO",
+      "x": 620,
+      "y": 360,
+      "rot": 90,
+      "label": "X1",
+      "linkedCoil": "e327",
+      "closed": false
+    },
+    {
+      "id": "e367",
+      "type": "node",
+      "x": 742.3015873015873,
+      "y": 460,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e368",
+      "type": "node",
+      "x": 742.3015873015873,
+      "y": 240,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e369",
+      "type": "contactNC",
+      "x": 742.3015873015873,
+      "y": 360,
+      "rot": 90,
+      "label": "X2",
+      "linkedCoil": "e328",
+      "closed": true
+    },
+    {
+      "id": "e370",
+      "type": "contactNO",
+      "x": 742.3015873015873,
+      "y": 190,
+      "rot": 90,
+      "label": "X1",
+      "linkedCoil": "e327",
+      "closed": false
+    },
+    {
+      "id": "e371",
+      "type": "contactNO",
+      "x": 852.5,
+      "y": 190,
+      "rot": 90,
+      "label": "X3",
+      "linkedCoil": "e329",
+      "closed": false
+    },
+    {
+      "id": "e372",
+      "type": "lamp",
+      "x": 852.5,
+      "y": 518,
+      "rot": 90,
+      "label": "GL",
+      "color": "green"
+    },
+    {
+      "id": "e373",
+      "type": "lamp",
+      "x": 988.888888888889,
+      "y": 518,
+      "rot": 90,
+      "label": "YL",
+      "color": "yellow"
+    },
+    {
+      "id": "e386",
+      "type": "contactNC",
+      "x": 990,
+      "y": 190,
+      "rot": 90,
+      "label": "X1",
+      "linkedCoil": "e327",
+      "closed": true
+    }
+  ],
+  "wires": [
+    {
+      "id": "e24",
+      "a": {
+        "elId": "e4",
+        "term": 0
+      },
+      "b": {
+        "elId": "e16",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e251",
+      "a": {
+        "elId": "e16",
+        "term": 1
+      },
+      "b": {
+        "elId": "e225",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e252",
+      "a": {
+        "elId": "e225",
+        "term": 0
+      },
+      "b": {
+        "elId": "e227",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e253",
+      "a": {
+        "elId": "e227",
+        "term": 0
+      },
+      "b": {
+        "elId": "e226",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e254",
+      "a": {
+        "elId": "e226",
+        "term": 0
+      },
+      "b": {
+        "elId": "e228",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e255",
+      "a": {
+        "elId": "e228",
+        "term": 0
+      },
+      "b": {
+        "elId": "e229",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e262",
+      "a": {
+        "elId": "e5",
+        "term": 0
+      },
+      "b": {
+        "elId": "e230",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e264",
+      "a": {
+        "elId": "e232",
+        "term": 0
+      },
+      "b": {
+        "elId": "e231",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e265",
+      "a": {
+        "elId": "e231",
+        "term": 0
+      },
+      "b": {
+        "elId": "e233",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e266",
+      "a": {
+        "elId": "e233",
+        "term": 0
+      },
+      "b": {
+        "elId": "e234",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e323",
+      "a": {
+        "elId": "e317",
+        "term": 0
+      },
+      "b": {
+        "elId": "e318",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e332",
+      "a": {
+        "elId": "e327",
+        "term": 1
+      },
+      "b": {
+        "elId": "e230",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 240,
+          "y": 568.1944444444445
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e335",
+      "a": {
+        "elId": "e317",
+        "term": 0
+      },
+      "b": {
+        "elId": "e334",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e338",
+      "a": {
+        "elId": "e334",
+        "term": 1
+      },
+      "b": {
+        "elId": "e337",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e339",
+      "a": {
+        "elId": "e337",
+        "term": 1
+      },
+      "b": {
+        "elId": "e325",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e340",
+      "a": {
+        "elId": "e318",
+        "term": 0
+      },
+      "b": {
+        "elId": "e333",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e344",
+      "a": {
+        "elId": "e317",
+        "term": 0
+      },
+      "b": {
+        "elId": "e343",
+        "term": 1
+      },
+      "bend": null
+    },
+    {
+      "id": "e345",
+      "a": {
+        "elId": "e343",
+        "term": 0
+      },
+      "b": {
+        "elId": "e225",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e347",
+      "a": {
+        "elId": "e325",
+        "term": 0
+      },
+      "b": {
+        "elId": "e333",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 350,
+          "y": 465
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e348",
+      "a": {
+        "elId": "e318",
+        "term": 0
+      },
+      "b": {
+        "elId": "e319",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e349",
+      "a": {
+        "elId": "e319",
+        "term": 0
+      },
+      "b": {
+        "elId": "e320",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e352",
+      "a": {
+        "elId": "e230",
+        "term": 0
+      },
+      "b": {
+        "elId": "e351",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e353",
+      "a": {
+        "elId": "e351",
+        "term": 0
+      },
+      "b": {
+        "elId": "e232",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e354",
+      "a": {
+        "elId": "e328",
+        "term": 1
+      },
+      "b": {
+        "elId": "e351",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e355",
+      "a": {
+        "elId": "e328",
+        "term": 0
+      },
+      "b": {
+        "elId": "e326",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e356",
+      "a": {
+        "elId": "e327",
+        "term": 0
+      },
+      "b": {
+        "elId": "e325",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 240.01234567901236,
+          "y": 465
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e358",
+      "a": {
+        "elId": "e319",
+        "term": 0
+      },
+      "b": {
+        "elId": "e357",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e361",
+      "a": {
+        "elId": "e357",
+        "term": 1
+      },
+      "b": {
+        "elId": "e360",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e362",
+      "a": {
+        "elId": "e360",
+        "term": 1
+      },
+      "b": {
+        "elId": "e326",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e365",
+      "a": {
+        "elId": "e320",
+        "term": 0
+      },
+      "b": {
+        "elId": "e364",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 619.8333333333334,
+          "y": 332
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e366",
+      "a": {
+        "elId": "e326",
+        "term": 0
+      },
+      "b": {
+        "elId": "e364",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 620,
+          "y": 465
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e374",
+      "a": {
+        "elId": "e370",
+        "term": 0
+      },
+      "b": {
+        "elId": "e226",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e375",
+      "a": {
+        "elId": "e370",
+        "term": 1
+      },
+      "b": {
+        "elId": "e368",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e376",
+      "a": {
+        "elId": "e368",
+        "term": 0
+      },
+      "b": {
+        "elId": "e369",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e377",
+      "a": {
+        "elId": "e369",
+        "term": 1
+      },
+      "b": {
+        "elId": "e367",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e378",
+      "a": {
+        "elId": "e367",
+        "term": 0
+      },
+      "b": {
+        "elId": "e329",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e379",
+      "a": {
+        "elId": "e329",
+        "term": 1
+      },
+      "b": {
+        "elId": "e231",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e380",
+      "a": {
+        "elId": "e372",
+        "term": 1
+      },
+      "b": {
+        "elId": "e233",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e382",
+      "a": {
+        "elId": "e367",
+        "term": 0
+      },
+      "b": {
+        "elId": "e372",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 852.5,
+          "y": 460
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e383",
+      "a": {
+        "elId": "e368",
+        "term": 0
+      },
+      "b": {
+        "elId": "e371",
+        "term": 1
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 852.5,
+          "y": 240
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e385",
+      "a": {
+        "elId": "e234",
+        "term": 0
+      },
+      "b": {
+        "elId": "e373",
+        "term": 1
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e387",
+      "a": {
+        "elId": "e229",
+        "term": 0
+      },
+      "b": {
+        "elId": "e386",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e388",
+      "a": {
+        "elId": "e386",
+        "term": 1
+      },
+      "b": {
+        "elId": "e373",
+        "term": 0
+      },
+      "bend": null
+    }
+  ],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 1.1,
+    "scrollLeft": 0,
+    "scrollTop": 0
+  }
+}

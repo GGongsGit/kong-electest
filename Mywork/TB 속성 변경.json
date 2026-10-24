@@ -1,0 +1,305 @@
+{
+  "elements": [
+    {
+      "id": "e315",
+      "type": "tb",
+      "x": 430,
+      "y": 230,
+      "rot": 0,
+      "label": "TB",
+      "poles": 4,
+      "fontSize": 9
+    },
+    {
+      "id": "e316",
+      "type": "node",
+      "x": 406,
+      "y": 230,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e315",
+      "tbTerm": 0
+    },
+    {
+      "id": "e317",
+      "type": "node",
+      "x": 422,
+      "y": 230,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e315",
+      "tbTerm": 1
+    },
+    {
+      "id": "e318",
+      "type": "node",
+      "x": 438,
+      "y": 230,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e315",
+      "tbTerm": 2
+    },
+    {
+      "id": "e319",
+      "type": "node",
+      "x": 454,
+      "y": 230,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e315",
+      "tbTerm": 3
+    },
+    {
+      "id": "e320",
+      "type": "node",
+      "x": 310,
+      "y": 350,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e321",
+      "type": "node",
+      "x": 440,
+      "y": 370,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e322",
+      "type": "node",
+      "x": 590,
+      "y": 390,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e323",
+      "type": "node",
+      "x": 730,
+      "y": 400,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e328",
+      "type": "tb",
+      "x": 240,
+      "y": 130,
+      "rot": 0,
+      "label": "TB",
+      "poles": 10,
+      "fontSize": 9
+    },
+    {
+      "id": "e329",
+      "type": "node",
+      "x": 168,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 0
+    },
+    {
+      "id": "e330",
+      "type": "node",
+      "x": 184,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 1
+    },
+    {
+      "id": "e331",
+      "type": "node",
+      "x": 200,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 2
+    },
+    {
+      "id": "e332",
+      "type": "node",
+      "x": 216,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 3
+    },
+    {
+      "id": "e333",
+      "type": "node",
+      "x": 232,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 4
+    },
+    {
+      "id": "e334",
+      "type": "node",
+      "x": 248,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 5
+    },
+    {
+      "id": "e335",
+      "type": "node",
+      "x": 264,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 6
+    },
+    {
+      "id": "e336",
+      "type": "node",
+      "x": 280,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 7
+    },
+    {
+      "id": "e337",
+      "type": "node",
+      "x": 296,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 8
+    },
+    {
+      "id": "e338",
+      "type": "node",
+      "x": 312,
+      "y": 130,
+      "rot": 0,
+      "label": "",
+      "tbParent": "e328",
+      "tbTerm": 9
+    },
+    {
+      "id": "e339",
+      "type": "node",
+      "x": 150,
+      "y": 270,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e340",
+      "type": "node",
+      "x": 250,
+      "y": 270,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e341",
+      "type": "node",
+      "x": 60,
+      "y": 200,
+      "rot": 0,
+      "label": ""
+    }
+  ],
+  "wires": [
+    {
+      "id": "e324",
+      "a": {
+        "elId": "e316",
+        "term": 0
+      },
+      "b": {
+        "elId": "e320",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 406,
+          "y": 350
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e325",
+      "a": {
+        "elId": "e317",
+        "term": 0
+      },
+      "b": {
+        "elId": "e321",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 422,
+          "y": 370
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e326",
+      "a": {
+        "elId": "e318",
+        "term": 0
+      },
+      "b": {
+        "elId": "e322",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 438,
+          "y": 390
+        }
+      ],
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e327",
+      "a": {
+        "elId": "e319",
+        "term": 0
+      },
+      "b": {
+        "elId": "e323",
+        "term": 0
+      },
+      "bend": null,
+      "waypoints": [
+        {
+          "x": 730,
+          "y": 230
+        }
+      ],
+      "color": "#cfe0da"
+    }
+  ],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 1.7,
+    "scrollLeft": 0,
+    "scrollTop": 0
+  }
+}

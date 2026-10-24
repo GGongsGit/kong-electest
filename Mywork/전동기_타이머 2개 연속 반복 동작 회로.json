@@ -1,0 +1,693 @@
+{
+  "elements": [
+    {
+      "id": "e2",
+      "type": "text",
+      "x": 250,
+      "y": 50,
+      "rot": 0,
+      "label": "[전동기 타이머 2개 연속 반복 동작 회로]",
+      "fontSize": 17,
+      "fontColor": "#55bbdd"
+    },
+    {
+      "id": "e4",
+      "type": "power",
+      "x": 75,
+      "y": 143.80952380952382,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e5",
+      "type": "power",
+      "x": 65,
+      "y": 543.1666666666666,
+      "rot": 0,
+      "label": "전원"
+    },
+    {
+      "id": "e16",
+      "type": "contactNC",
+      "x": 170,
+      "y": 143.80952380952382,
+      "rot": 0,
+      "label": "PB0",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e94",
+      "type": "node",
+      "x": 290.3333333333333,
+      "y": 143.80952380952382,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e95",
+      "type": "node",
+      "x": 408,
+      "y": 143.80952380952382,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e96",
+      "type": "node",
+      "x": 525,
+      "y": 143.80952380952382,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e97",
+      "type": "node",
+      "x": 686.4,
+      "y": 143.80952380952382,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e99",
+      "type": "node",
+      "x": 290.3333333333333,
+      "y": 543.1666666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e100",
+      "type": "node",
+      "x": 408,
+      "y": 543.1666666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e101",
+      "type": "node",
+      "x": 525,
+      "y": 543.1666666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e102",
+      "type": "node",
+      "x": 686.4,
+      "y": 543.1666666666666,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e104",
+      "type": "node",
+      "x": 290.3333333333333,
+      "y": 404,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e105",
+      "type": "node",
+      "x": 408,
+      "y": 404,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e106",
+      "type": "node",
+      "x": 525,
+      "y": 404,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e107",
+      "type": "node",
+      "x": 686.4,
+      "y": 404,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e137",
+      "type": "lamp",
+      "x": 408,
+      "y": 478,
+      "rot": 90,
+      "label": "GL",
+      "color": "green"
+    },
+    {
+      "id": "e141",
+      "type": "lamp",
+      "x": 686.4,
+      "y": 478,
+      "rot": 90,
+      "label": "RL",
+      "color": "red"
+    },
+    {
+      "id": "e176",
+      "type": "node",
+      "x": 850,
+      "y": 404,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e181",
+      "type": "node",
+      "x": 850,
+      "y": 143.80952380952382,
+      "rot": 0,
+      "label": ""
+    },
+    {
+      "id": "e185",
+      "type": "coil",
+      "x": 290.3333333333333,
+      "y": 478,
+      "rot": 90,
+      "label": "T1",
+      "timerType": "on-delay",
+      "delaySec": 3
+    },
+    {
+      "id": "e188",
+      "type": "coil",
+      "x": 525,
+      "y": 478,
+      "rot": 90,
+      "label": "T2",
+      "timerType": "on-delay",
+      "delaySec": 3
+    },
+    {
+      "id": "e191",
+      "type": "contactNC",
+      "x": 290,
+      "y": 210,
+      "rot": 90,
+      "label": "T1",
+      "contactStyle": "timerDelay",
+      "linkedCoil": "e185",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e194",
+      "type": "contactNO",
+      "x": 290.3333333333333,
+      "y": 340,
+      "rot": 90,
+      "label": "T1",
+      "timerContactMode": "instant",
+      "linkedCoil": "e185",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e207",
+      "type": "contactNO",
+      "x": 410,
+      "y": 208,
+      "rot": 90,
+      "label": "T2",
+      "contactStyle": "timerDelay",
+      "linkedCoil": "e188",
+      "gangWith": null,
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e212",
+      "type": "contactNC",
+      "x": 525,
+      "y": 208,
+      "rot": 90,
+      "label": "T2",
+      "contactStyle": "timerDelay",
+      "linkedCoil": "e188",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e215",
+      "type": "contactNO",
+      "x": 525,
+      "y": 340,
+      "rot": 90,
+      "label": "T2",
+      "timerContactMode": "instant",
+      "linkedCoil": "e188",
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e218",
+      "type": "contactNO",
+      "x": 686.4,
+      "y": 208,
+      "rot": 90,
+      "label": "T1",
+      "contactStyle": "timerDelay",
+      "linkedCoil": "e185",
+      "gangWith": null,
+      "gangDelaySec": 0
+    },
+    {
+      "id": "e221",
+      "type": "contactNO",
+      "x": 850,
+      "y": 208,
+      "rot": 90,
+      "label": "PB1",
+      "contactStyle": "pb",
+      "momentary": true
+    },
+    {
+      "id": "e224",
+      "type": "[전동기 타이머 2개 연속 반복 동작 회로]\r\n전원\r\n전원\r\nPB0\r\nGL\r\nRL\r\nT1\r\nTON 3s\r\nT2\r\nTON 3s\r\nT1\r\n↳ T1 (한시)\r\nT1\r\nT2\r\n↳ T2 (한시)\r\nT2\r\n↳ T2 (한시)\r\nT2\r\n↳ T2 (순시)\r\nT1\r\n↳ T1 (한시)\r\nPB1\r\n",
+      "x": 210,
+      "y": 180,
+      "rot": 0
+    }
+  ],
+  "wires": [
+    {
+      "id": "e24",
+      "a": {
+        "elId": "e4",
+        "term": 0
+      },
+      "b": {
+        "elId": "e16",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e108",
+      "a": {
+        "elId": "e16",
+        "term": 1
+      },
+      "b": {
+        "elId": "e94",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e109",
+      "a": {
+        "elId": "e94",
+        "term": 0
+      },
+      "b": {
+        "elId": "e95",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e110",
+      "a": {
+        "elId": "e95",
+        "term": 0
+      },
+      "b": {
+        "elId": "e96",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e111",
+      "a": {
+        "elId": "e96",
+        "term": 0
+      },
+      "b": {
+        "elId": "e97",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e115",
+      "a": {
+        "elId": "e5",
+        "term": 0
+      },
+      "b": {
+        "elId": "e99",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e116",
+      "a": {
+        "elId": "e99",
+        "term": 0
+      },
+      "b": {
+        "elId": "e100",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e117",
+      "a": {
+        "elId": "e100",
+        "term": 0
+      },
+      "b": {
+        "elId": "e101",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e118",
+      "a": {
+        "elId": "e101",
+        "term": 0
+      },
+      "b": {
+        "elId": "e102",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e126",
+      "a": {
+        "elId": "e104",
+        "term": 0
+      },
+      "b": {
+        "elId": "e105",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e127",
+      "a": {
+        "elId": "e106",
+        "term": 0
+      },
+      "b": {
+        "elId": "e107",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e138",
+      "a": {
+        "elId": "e105",
+        "term": 0
+      },
+      "b": {
+        "elId": "e137",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e139",
+      "a": {
+        "elId": "e137",
+        "term": 1
+      },
+      "b": {
+        "elId": "e100",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e142",
+      "a": {
+        "elId": "e102",
+        "term": 0
+      },
+      "b": {
+        "elId": "e141",
+        "term": 1
+      },
+      "bend": null
+    },
+    {
+      "id": "e143",
+      "a": {
+        "elId": "e141",
+        "term": 0
+      },
+      "b": {
+        "elId": "e107",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e182",
+      "a": {
+        "elId": "e97",
+        "term": 0
+      },
+      "b": {
+        "elId": "e181",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e183",
+      "a": {
+        "elId": "e107",
+        "term": 0
+      },
+      "b": {
+        "elId": "e176",
+        "term": 0
+      },
+      "bend": null,
+      "color": "#cfe0da"
+    },
+    {
+      "id": "e186",
+      "a": {
+        "elId": "e104",
+        "term": 0
+      },
+      "b": {
+        "elId": "e185",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e187",
+      "a": {
+        "elId": "e185",
+        "term": 1
+      },
+      "b": {
+        "elId": "e99",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e189",
+      "a": {
+        "elId": "e106",
+        "term": 0
+      },
+      "b": {
+        "elId": "e188",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e190",
+      "a": {
+        "elId": "e188",
+        "term": 1
+      },
+      "b": {
+        "elId": "e101",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e193",
+      "a": {
+        "elId": "e191",
+        "term": 0
+      },
+      "b": {
+        "elId": "e94",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e195",
+      "a": {
+        "elId": "e104",
+        "term": 0
+      },
+      "b": {
+        "elId": "e194",
+        "term": 1
+      },
+      "bend": null
+    },
+    {
+      "id": "e196",
+      "a": {
+        "elId": "e194",
+        "term": 0
+      },
+      "b": {
+        "elId": "e191",
+        "term": 1
+      },
+      "bend": null
+    },
+    {
+      "id": "e208",
+      "a": {
+        "elId": "e95",
+        "term": 0
+      },
+      "b": {
+        "elId": "e207",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e209",
+      "a": {
+        "elId": "e207",
+        "term": 1
+      },
+      "b": {
+        "elId": "e105",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e213",
+      "a": {
+        "elId": "e96",
+        "term": 0
+      },
+      "b": {
+        "elId": "e212",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e216",
+      "a": {
+        "elId": "e212",
+        "term": 1
+      },
+      "b": {
+        "elId": "e215",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e217",
+      "a": {
+        "elId": "e215",
+        "term": 1
+      },
+      "b": {
+        "elId": "e106",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e219",
+      "a": {
+        "elId": "e107",
+        "term": 0
+      },
+      "b": {
+        "elId": "e218",
+        "term": 1
+      },
+      "bend": null
+    },
+    {
+      "id": "e220",
+      "a": {
+        "elId": "e218",
+        "term": 0
+      },
+      "b": {
+        "elId": "e97",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e222",
+      "a": {
+        "elId": "e181",
+        "term": 0
+      },
+      "b": {
+        "elId": "e221",
+        "term": 0
+      },
+      "bend": null
+    },
+    {
+      "id": "e223",
+      "a": {
+        "elId": "e221",
+        "term": 1
+      },
+      "b": {
+        "elId": "e176",
+        "term": 0
+      },
+      "bend": null
+    }
+  ],
+  "conduits": [],
+  "marks": [],
+  "view": {
+    "zoom": 1.1,
+    "scrollLeft": 0,
+    "scrollTop": 0
+  }
+}
